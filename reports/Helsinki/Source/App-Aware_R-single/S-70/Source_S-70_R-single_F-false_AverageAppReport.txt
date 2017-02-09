@@ -1,0 +1,31 @@
+Average Statistics across all Apps
+
+Average_Percentage: 62.6700
+
+Average_Success_Rate: 49.0634
+
+Update Check : % of Users
+0 0.0000
+1 26.3305
+2 39.5524
+3 47.1319
+4 51.9410
+5 54.6927
+6 56.9649
+7 58.8409
+8 60.2084
+9 61.4960
+10 62.6700
+
+Sample Interval : % of Relay Msgs
+0 0.0000
+1 21.5091
+2 25.9000
+3 28.7091
+4 30.5636
+5 32.4727
+6 33.7636
+7 34.9455
+8 35.7636
+9 36.4818
+10 36.9455

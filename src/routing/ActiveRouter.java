@@ -70,7 +70,7 @@ public abstract class ActiveRouter extends MessageRouter {
 
 	/**
 	 * Copy constructor.
-	 * @param r The router prototype where setting values are copied from
+	 * @param r The router prototype where setting values are copied fromo
 	 */
 	protected ActiveRouter(ActiveRouter r) {
 		super(r);

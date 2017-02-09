@@ -1,0 +1,6 @@
+Reporting for Application BBC
+Check Interval : Average Cumulative Success Rate
+
+0 0.0
+1 0.08825757575757576
+2 0.21715909090909094

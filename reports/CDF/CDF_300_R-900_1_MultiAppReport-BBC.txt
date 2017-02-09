@@ -1,0 +1,130 @@
+Reporting for Application BBC
+
+
+Number of duplicates received per Node
+Host : Number of duplicates
+c5 : 0
+c6 : 0
+c7 : 1
+c8 : 0
+c9 : 1
+c10 : 0
+c11 : 0
+c12 : 1
+c13 : 0
+c14 : 0
+c15 : 1
+c16 : 0
+c17 : 0
+c18 : 0
+c19 : 0
+c20 : 0
+c21 : 1
+c22 : 0
+c23 : 0
+c24 : 0
+c25 : 1
+c26 : 0
+c27 : 0
+c28 : 0
+c29 : 0
+c30 : 0
+c31 : 0
+c32 : 0
+c33 : 0
+c34 : 0
+c35 : 0
+c36 : 1
+c37 : 1
+c38 : 0
+c39 : 3
+c40 : 1
+c41 : 0
+c42 : 0
+c43 : 1
+c44 : 0
+c45 : 0
+c46 : 0
+c47 : 0
+c48 : 0
+c49 : 0
+c50 : 0
+c51 : 0
+c52 : 0
+c53 : 3
+c54 : 0
+c55 : 0
+c56 : 0
+c57 : 0
+c58 : 0
+c59 : 0
+c60 : 1
+c61 : 0
+c62 : 0
+c63 : 1
+c64 : 0
+c65 : 0
+c66 : 0
+c67 : 0
+c68 : 0
+c69 : 0
+c70 : 0
+c71 : 0
+c72 : 0
+c73 : 0
+c74 : 0
+c75 : 0
+c76 : 2
+c77 : 0
+c78 : 0
+c79 : 0
+c80 : 1
+c81 : 0
+c82 : 1
+c83 : 0
+c84 : 0
+c85 : 0
+c86 : 1
+c87 : 1
+c88 : 0
+c89 : 0
+c90 : 0
+c91 : 2
+c92 : 0
+c93 : 0
+c94 : 1
+c95 : 0
+c96 : 1
+c97 : 0
+c98 : 0
+c99 : 1
+c100 : 1
+c101 : 0
+c102 : 0
+c103 : 0
+c104 : 0
+
+
+Overall stats for scenario CDF_300_R-900_1
+Total updates sent: 1026
+Total updates relayed: 773
+Total updates received: 1016
+Total updates rejected: 30
+Relay_Percentage: 75.3411
+
+Users with up to date content at each interval
+Interval : Number of Users : %
+0 : 100 : 100.0000
+1 : 90 : 90.0000
+2 : 83 : 83.0000
+3 : 83 : 83.0000
+4 : 91 : 91.0000
+5 : 90 : 90.0000
+6 : 91 : 91.0000
+7 : 91 : 91.0000
+8 : 92 : 92.0000
+9 : 89 : 89.0000
+10 : 88 : 88.0000
+11 : 92 : 92.0000
+
+Average_Percentage: 89.0909

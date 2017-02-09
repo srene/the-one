@@ -190,7 +190,9 @@ public abstract class Report {
 	 * Creates a new output file
 	 * @param outFileName Name (&path) of the file to create
 	 */
-	private void createOutput(String outFileName) {
+	// NOTE!! 27/6/16 - Changed from private to protected for extension
+	// purposes (D.Shtefan)
+	protected void createOutput(String outFileName) {
 		try {
 			this.out = new PrintWriter(new FileWriter(outFileName));
 		} catch (IOException e) {

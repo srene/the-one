@@ -1,0 +1,3 @@
+interface avg ci
+btInterface 41.81818 1.03190376937
+wifiDirect 56.16362 0.786460718356

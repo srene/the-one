@@ -1,0 +1,20 @@
+Message stats for scenario CDF_1200_R-300_4
+sim_time: 43210.1000
+created: 673
+started: 672
+relayed: 665
+aborted: 7
+dropped: 669
+removed: 0
+delivered: 665
+delivery_prob: 0.9881
+response_prob: 0.0000
+overhead_ratio: 0.0000
+latency_avg: 4.1713
+latency_med: 4.0000
+hopcount_avg: 1.0000
+hopcount_med: 1
+buffertime_avg: 270.1549
+buffertime_med: 269.9000
+rtt_avg: NaN
+rtt_med: NaN

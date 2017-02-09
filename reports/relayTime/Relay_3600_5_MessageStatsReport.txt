@@ -1,0 +1,20 @@
+Message stats for scenario Relay_3600_5
+sim_time: 43210.1000
+created: 1120
+started: 1122
+relayed: 1112
+aborted: 10
+dropped: 1120
+removed: 0
+delivered: 1112
+delivery_prob: 0.9929
+response_prob: 0.0000
+overhead_ratio: 0.0000
+latency_avg: 4.1211
+latency_med: 4.0000
+hopcount_avg: 1.0000
+hopcount_med: 1
+buffertime_avg: 269.9356
+buffertime_med: 270.9000
+rtt_avg: NaN
+rtt_med: NaN

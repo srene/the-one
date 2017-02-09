@@ -1,0 +1,71 @@
+Reporting for Application BBC
+
+
+Number of duplicates received per Node
+Host : Number of duplicates
+2 : 2
+3 : 0
+4 : 0
+5 : 0
+6 : 1
+7 : 0
+8 : 0
+9 : 1
+10 : 0
+11 : 0
+12 : 1
+13 : 1
+14 : 0
+15 : 0
+16 : 0
+17 : 0
+18 : 2
+19 : 0
+20 : 0
+21 : 0
+22 : 2
+23 : 0
+24 : 1
+25 : 0
+26 : 0
+27 : 1
+28 : 2
+29 : 0
+30 : 0
+31 : 0
+32 : 2
+33 : 0
+34 : 0
+35 : 0
+36 : 1
+37 : 0
+38 : 0
+39 : 2
+40 : 1
+41 : 0
+42 : 1
+43 : 0
+44 : 2
+
+
+Overall stats for scenario Density_45-hosts_3
+Total updates sent: 132
+Total updates received: 131
+Total updates rejected: 23
+
+Users with up to date content at each interval
+Interval : Number of Users : %
+0 : 43 : 100.0000
+1 : 6 : 13.9535
+2 : 11 : 25.5814
+3 : 12 : 27.9070
+4 : 16 : 37.2093
+5 : 12 : 27.9070
+6 : 13 : 30.2326
+7 : 5 : 11.6279
+8 : 12 : 27.9070
+9 : 8 : 18.6047
+10 : 6 : 13.9535
+11 : 4 : 9.3023
+
+Average_Percentage: 22.1987

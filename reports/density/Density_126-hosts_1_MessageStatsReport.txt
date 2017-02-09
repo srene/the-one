@@ -1,0 +1,20 @@
+Message stats for scenario Density_126-hosts_1
+sim_time: 43210.1000
+created: 707
+started: 708
+relayed: 703
+aborted: 5
+dropped: 703
+removed: 0
+delivered: 703
+delivery_prob: 0.9943
+response_prob: 0.0000
+overhead_ratio: 0.0000
+latency_avg: 4.0697
+latency_med: 4.0000
+hopcount_avg: 1.0000
+hopcount_med: 1
+buffertime_avg: 271.5267
+buffertime_med: 271.9000
+rtt_avg: NaN
+rtt_med: NaN

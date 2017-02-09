@@ -1,0 +1,14 @@
+Reporting for Application App3
+Sample Interval : % of Relay Msgs
+
+0 0.0000
+1 6.2727
+2 6.3636
+3 6.1818
+4 6.1818
+5 6.0909
+6 6.0000
+7 6.0909
+8 6.1818
+9 6.1818
+10 6.1818

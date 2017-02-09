@@ -1,0 +1,1570 @@
+SimTime : Event 
+
+0.1000 : Host c1 sent update 0 to host c70
+4.1000 : Host c70 REJECTED update 0 -> 0 from host c1
+138.5000 : Host c3 sent update 0 to host c59
+142.5000 : Host c59 REJECTED update 0 -> 0 from host c3
+149.4000 : Host c3 sent update 0 to host c72
+153.4000 : Host c72 REJECTED update 0 -> 0 from host c3
+354.0000 : Host c0 sent update 0 to host c58
+358.0000 : Host c58 REJECTED update 0 -> 0 from host c0
+361.5000 : Host c3 sent update 0 to host c84
+365.5000 : Host c84 REJECTED update 0 -> 0 from host c3
+376.2000 : Host c1 sent update 0 to host c97
+380.2000 : Host c97 REJECTED update 0 -> 0 from host c1
+515.7000 : Host c3 sent update 0 to host c82
+558.6000 : Host c0 sent update 0 to host c78
+562.6000 : Host c78 REJECTED update 0 -> 0 from host c0
+601.3000 : Host c3 sent update 0 to host c20
+605.3000 : Host c20 REJECTED update 0 -> 0 from host c3
+674.4000 : Host c1 sent update 0 to host c77
+678.4000 : Host c77 REJECTED update 0 -> 0 from host c1
+713.5000 : Host c4 sent update 0 to host c2
+713.5000 : Host c2 sent update 0 to host c4
+715.8000 : Host c0 sent update 0 to host c68
+717.5000 : Host c2 REJECTED update 0 -> 0 from host c4
+719.8000 : Host c68 REJECTED update 0 -> 0 from host c0
+721.5000 : Host c4 REJECTED update 0 -> 0 from host c2
+723.6000 : Host c1 sent update 0 to host c26
+727.6000 : Host c26 REJECTED update 0 -> 0 from host c1
+784.6000 : Host c3 sent update 0 to host c19
+788.6000 : Host c19 REJECTED update 0 -> 0 from host c3
+827.1000 : Host c2 sent update 0 to host c66
+831.1000 : Host c66 REJECTED update 0 -> 0 from host c2
+838.3000 : Host c4 sent update 0 to host c17
+842.3000 : Host c17 REJECTED update 0 -> 0 from host c4
+1012.5000 : Host c0 sent update 0 to host c22
+1016.5000 : Host c22 REJECTED update 0 -> 0 from host c0
+1134.0000 : Host c3 sent update 0 to host c91
+1138.0000 : Host c91 REJECTED update 0 -> 0 from host c3
+1354.1000 : Host c0 sent update 0 to host c83
+1358.1000 : Host c83 REJECTED update 0 -> 0 from host c0
+1512.9000 : Host c4 sent update 0 to host c66
+1516.9000 : Host c66 REJECTED update 0 -> 0 from host c4
+1550.5000 : Host c3 sent update 0 to host c79
+1554.5000 : Host c79 REJECTED update 0 -> 0 from host c3
+1608.3000 : Host c4 sent update 0 to host c19
+1612.3000 : Host c19 REJECTED update 0 -> 0 from host c4
+1658.3000 : Host c4 sent update 0 to host c25
+1662.3000 : Host c25 REJECTED update 0 -> 0 from host c4
+1724.0000 : Host c0 sent update 0 to host c57
+1728.0000 : Host c57 REJECTED update 0 -> 0 from host c0
+1769.0000 : Host c4 sent update 0 to host c13
+1773.0000 : Host c13 REJECTED update 0 -> 0 from host c4
+1774.7000 : Host c2 sent update 0 to host c85
+1778.7000 : Host c85 REJECTED update 0 -> 0 from host c2
+1822.4000 : Host c4 sent update 0 to host c42
+1826.4000 : Host c42 REJECTED update 0 -> 0 from host c4
+1921.4000 : Host c4 sent update 0 to host c35
+1925.4000 : Host c35 REJECTED update 0 -> 0 from host c4
+2031.1000 : Host c3 sent update 0 to host c16
+2035.1000 : Host c16 REJECTED update 0 -> 0 from host c3
+2099.1000 : Host c4 sent update 0 to host c101
+2103.1000 : Host c101 REJECTED update 0 -> 0 from host c4
+2125.9000 : Host c1 sent update 0 to host c29
+2129.9000 : Host c29 REJECTED update 0 -> 0 from host c1
+2146.4000 : Host c3 sent update 0 to host c86
+2150.4000 : Host c86 REJECTED update 0 -> 0 from host c3
+2225.0000 : Host c4 sent update 0 to host c60
+2229.0000 : Host c60 REJECTED update 0 -> 0 from host c4
+2251.3000 : Host c3 sent update 0 to host c72
+2255.3000 : Host c72 REJECTED update 0 -> 0 from host c3
+2276.0000 : Host c3 sent update 0 to host c51
+2280.0000 : Host c51 REJECTED update 0 -> 0 from host c3
+2391.0000 : Host c3 sent update 0 to host c33
+2395.0000 : Host c33 REJECTED update 0 -> 0 from host c3
+2460.8000 : Host c2 sent update 0 to host c12
+2464.8000 : Host c12 REJECTED update 0 -> 0 from host c2
+2588.2000 : Host c1 sent update 0 to host c27
+2592.2000 : Host c27 REJECTED update 0 -> 0 from host c1
+2607.0000 : Host c4 sent update 0 to host c15
+2611.0000 : Host c15 REJECTED update 0 -> 0 from host c4
+2651.3000 : Host c1 sent update 0 to host c36
+2655.3000 : Host c36 REJECTED update 0 -> 0 from host c1
+2813.4000 : Host c4 sent update 0 to host c20
+2817.4000 : Host c20 REJECTED update 0 -> 0 from host c4
+2841.2000 : Host c2 sent update 0 to host c97
+2845.2000 : Host c97 REJECTED update 0 -> 0 from host c2
+2896.6000 : Host c1 sent update 0 to host c45
+2900.6000 : Host c45 REJECTED update 0 -> 0 from host c1
+3015.8000 : Host c1 sent update 0 to host c24
+3019.8000 : Host c24 REJECTED update 0 -> 0 from host c1
+3031.6000 : Host c3 sent update 0 to host c7
+3035.6000 : Host c7 REJECTED update 0 -> 0 from host c3
+3076.6000 : Host c4 sent update 0 to host c48
+3080.6000 : Host c48 REJECTED update 0 -> 0 from host c4
+3130.9000 : Host c3 sent update 0 to host c75
+3134.9000 : Host c75 REJECTED update 0 -> 0 from host c3
+3220.6000 : Host c4 sent update 0 to host c77
+3224.6000 : Host c77 REJECTED update 0 -> 0 from host c4
+3343.1000 : Host c0 sent update 0 to host c21
+3347.1000 : Host c21 REJECTED update 0 -> 0 from host c0
+3364.5000 : Host c0 sent update 0 to host c17
+3368.5000 : Host c17 REJECTED update 0 -> 0 from host c0
+3382.1000 : Host c0 sent update 0 to host c93
+3386.1000 : Host c93 REJECTED update 0 -> 0 from host c0
+3403.5000 : Host c4 sent update 0 to host c103
+3407.5000 : Host c103 REJECTED update 0 -> 0 from host c4
+3508.8000 : Host c4 sent update 0 to host c17
+3512.8000 : Host c17 REJECTED update 0 -> 0 from host c4
+3560.8000 : Host c0 sent update 0 to host c86
+3564.8000 : Host c86 REJECTED update 0 -> 0 from host c0
+3600.1000 : Active source host c2 generated a new update - 1
+
+3600.1000 : Active source host c3 generated a new update - 1
+
+3600.1000 : Active source host c4 generated a new update - 1
+
+3600.1000 : Active source host c1 generated a new update - 1
+
+3600.1000 : Active source host c0 generated a new update - 1
+
+3686.8000 : Host c1 sent update 1 to host c5
+3690.8000 : Host c5 ACCEPTED update 0 -> 1 from host c1
+3711.4000 : Host c1 sent update 1 to host c14
+3712.0000 : Host c2 sent update 1 to host c27
+3715.4000 : Host c14 ACCEPTED update 0 -> 1 from host c1
+3716.0000 : Host c27 ACCEPTED update 0 -> 1 from host c2
+3747.2000 : Host c4 sent update 1 to host c10
+3751.2000 : Host c10 ACCEPTED update 0 -> 1 from host c4
+3802.7000 : Host c0 sent update 1 to host c78
+3806.7000 : Host c78 ACCEPTED update 0 -> 1 from host c0
+3847.7000 : Host c2 sent update 1 to host c27
+3851.7000 : Host c27 REJECTED update 1 -> 1 from host c2
+3878.5000 : Host c4 sent update 1 to host c23
+3882.5000 : Host c23 ACCEPTED update 0 -> 1 from host c4
+3909.5000 : Host c2 sent update 1 to host c40
+3913.5000 : Host c40 ACCEPTED update 0 -> 1 from host c2
+3935.6000 : Host c2 sent update 1 to host c27
+3938.4000 : Host c3 sent update 1 to host c44
+3939.6000 : Host c27 REJECTED update 1 -> 1 from host c2
+3942.4000 : Host c44 ACCEPTED update 0 -> 1 from host c3
+4075.4000 : Host c0 sent update 1 to host c84
+4079.4000 : Host c84 ACCEPTED update 0 -> 1 from host c0
+4106.0000 : Host c1 sent update 1 to host c30
+4110.0000 : Host c30 ACCEPTED update 0 -> 1 from host c1
+4178.8000 : Host c1 sent update 1 to host c95
+4182.8000 : Host c95 ACCEPTED update 0 -> 1 from host c1
+4406.7000 : Host c2 sent update 1 to host c56
+4410.7000 : Host c56 ACCEPTED update 0 -> 1 from host c2
+4420.8000 : Host c4 sent update 1 to host c32
+4424.8000 : Host c32 ACCEPTED update 0 -> 1 from host c4
+4457.7000 : Host c4 sent update 1 to host c93
+4461.7000 : Host c93 ACCEPTED update 0 -> 1 from host c4
+4479.8000 : Host c2 sent update 1 to host c35
+4483.8000 : Host c35 ACCEPTED update 0 -> 1 from host c2
+4517.6000 : Host c4 sent update 1 to host c19
+4520.5000 : Host c0 sent update 1 to host c36
+4521.6000 : Host c19 ACCEPTED update 0 -> 1 from host c4
+4524.5000 : Host c36 ACCEPTED update 0 -> 1 from host c0
+4530.8000 : Host c2 sent update 1 to host c81
+4534.8000 : Host c81 ACCEPTED update 0 -> 1 from host c2
+4538.0000 : Host c4 sent update 1 to host c51
+4542.0000 : Host c51 ACCEPTED update 0 -> 1 from host c4
+4572.4000 : Host c4 sent update 1 to host c59
+4576.4000 : Host c59 ACCEPTED update 0 -> 1 from host c4
+4619.5000 : Host c2 sent update 1 to host c102
+4623.5000 : Host c102 ACCEPTED update 0 -> 1 from host c2
+4636.8000 : Host c4 sent update 1 to host c100
+4640.0000 : Host c4 sent update 1 to host c72
+4640.7000 : Host c0 sent update 1 to host c26
+4644.3000 : Host c72 ACCEPTED update 0 -> 1 from host c4
+4644.7000 : Host c26 ACCEPTED update 0 -> 1 from host c0
+4660.3000 : Host c2 sent update 1 to host c94
+4664.3000 : Host c94 ACCEPTED update 0 -> 1 from host c2
+4688.8000 : Host c4 sent update 1 to host c84
+4692.8000 : Host c84 REJECTED update 1 -> 1 from host c4
+4814.7000 : Host c4 sent update 1 to host c11
+4818.7000 : Host c11 ACCEPTED update 0 -> 1 from host c4
+4830.9000 : Host c4 sent update 1 to host c14
+4834.9000 : Host c14 REJECTED update 1 -> 1 from host c4
+5048.1000 : Host c2 sent update 1 to host c88
+5052.1000 : Host c88 ACCEPTED update 0 -> 1 from host c2
+5054.8000 : Host c3 sent update 1 to host c61
+5058.8000 : Host c61 ACCEPTED update 0 -> 1 from host c3
+5152.8000 : Host c0 sent update 1 to host c3
+5152.8000 : Host c3 sent update 1 to host c0
+5156.8000 : Host c3 REJECTED update 1 -> 1 from host c0
+5160.8000 : Host c0 REJECTED update 1 -> 1 from host c3
+5433.2000 : Host c2 sent update 1 to host c63
+5437.2000 : Host c63 ACCEPTED update 0 -> 1 from host c2
+5491.2000 : Host c4 sent update 1 to host c53
+5495.2000 : Host c53 ACCEPTED update 0 -> 1 from host c4
+5517.8000 : Host c4 sent update 1 to host c95
+5520.1000 : Host c4 sent update 1 to host c61
+5521.0000 : Host c2 sent update 1 to host c63
+5521.8000 : Host c95 REJECTED update 1 -> 1 from host c4
+5525.0000 : Host c63 REJECTED update 1 -> 1 from host c2
+5525.8000 : Host c61 REJECTED update 1 -> 1 from host c4
+5591.0000 : Host c4 sent update 1 to host c99
+5595.0000 : Host c99 ACCEPTED update 0 -> 1 from host c4
+5683.4000 : Host c4 sent update 1 to host c79
+5687.4000 : Host c79 ACCEPTED update 0 -> 1 from host c4
+5843.5000 : Host c0 sent update 1 to host c3
+5843.5000 : Host c3 sent update 1 to host c0
+5847.5000 : Host c3 REJECTED update 1 -> 1 from host c0
+5915.1000 : Host c2 sent update 1 to host c67
+5919.1000 : Host c67 ACCEPTED update 0 -> 1 from host c2
+6116.4000 : Host c2 sent update 1 to host c18
+6120.4000 : Host c18 ACCEPTED update 0 -> 1 from host c2
+6203.3000 : Host c2 sent update 1 to host c9
+6207.3000 : Host c9 ACCEPTED update 0 -> 1 from host c2
+6295.4000 : Host c2 sent update 1 to host c89
+6299.4000 : Host c89 ACCEPTED update 0 -> 1 from host c2
+6331.7000 : Host c2 sent update 1 to host c60
+6335.7000 : Host c60 ACCEPTED update 0 -> 1 from host c2
+6460.9000 : Host c2 sent update 1 to host c84
+6464.9000 : Host c84 REJECTED update 1 -> 1 from host c2
+6474.4000 : Host c3 sent update 1 to host c101
+6478.4000 : Host c101 ACCEPTED update 0 -> 1 from host c3
+6486.0000 : Host c4 sent update 1 to host c73
+6490.0000 : Host c73 ACCEPTED update 0 -> 1 from host c4
+6524.9000 : Host c2 sent update 1 to host c12
+6528.9000 : Host c12 ACCEPTED update 0 -> 1 from host c2
+6593.7000 : Host c3 sent update 1 to host c86
+6597.7000 : Host c86 ACCEPTED update 0 -> 1 from host c3
+6609.3000 : Host c4 sent update 1 to host c58
+6613.3000 : Host c58 ACCEPTED update 0 -> 1 from host c4
+6625.7000 : Host c1 sent update 1 to host c67
+6629.7000 : Host c67 REJECTED update 1 -> 1 from host c1
+6693.4000 : Host c3 sent update 1 to host c89
+6697.4000 : Host c89 REJECTED update 1 -> 1 from host c3
+6755.2000 : Host c3 sent update 1 to host c64
+6759.2000 : Host c64 ACCEPTED update 0 -> 1 from host c3
+6862.4000 : Host c1 sent update 1 to host c70
+6866.4000 : Host c70 ACCEPTED update 0 -> 1 from host c1
+6931.6000 : Host c3 sent update 1 to host c74
+6935.6000 : Host c74 ACCEPTED update 0 -> 1 from host c3
+6965.4000 : Host c1 sent update 1 to host c71
+6969.4000 : Host c71 ACCEPTED update 0 -> 1 from host c1
+6983.2000 : Host c4 sent update 1 to host c96
+6987.2000 : Host c96 ACCEPTED update 0 -> 1 from host c4
+7197.6000 : Host c4 sent update 1 to host c72
+7200.1000 : Active source host c4 generated a new update - 2
+
+7200.1000 : Active source host c2 generated a new update - 2
+
+7200.1000 : Active source host c1 generated a new update - 2
+
+7200.1000 : Active source host c0 generated a new update - 2
+
+7200.1000 : Active source host c3 generated a new update - 2
+
+7201.6000 : Host c72 REJECTED update 1 -> 1 from host c4
+7239.0000 : Host c4 sent update 2 to host c54
+7243.0000 : Host c54 ACCEPTED update 0 -> 2 from host c4
+7295.6000 : Host c1 sent update 2 to host c10
+7299.6000 : Host c10 ACCEPTED update 1 -> 2 from host c1
+7392.1000 : Host c4 sent update 2 to host c14
+7396.1000 : Host c14 ACCEPTED update 1 -> 2 from host c4
+7480.2000 : Host c4 sent update 2 to host c31
+7484.2000 : Host c31 ACCEPTED update 0 -> 2 from host c4
+7504.8000 : Host c3 sent update 2 to host c45
+7508.5000 : Host c4 sent update 2 to host c24
+7508.8000 : Host c45 ACCEPTED update 0 -> 2 from host c3
+7512.5000 : Host c24 ACCEPTED update 0 -> 2 from host c4
+7588.2000 : Host c4 sent update 2 to host c93
+7592.2000 : Host c93 ACCEPTED update 1 -> 2 from host c4
+7606.8000 : Host c4 sent update 2 to host c99
+7610.8000 : Host c99 ACCEPTED update 1 -> 2 from host c4
+7624.5000 : Host c4 sent update 2 to host c79
+7628.5000 : Host c79 ACCEPTED update 1 -> 2 from host c4
+7712.2000 : Host c3 sent update 2 to host c31
+7716.2000 : Host c31 REJECTED update 2 -> 2 from host c3
+7718.4000 : Host c4 sent update 2 to host c92
+7722.4000 : Host c92 ACCEPTED update 0 -> 2 from host c4
+7828.3000 : Host c0 sent update 2 to host c36
+7832.3000 : Host c36 ACCEPTED update 1 -> 2 from host c0
+7858.5000 : Host c3 sent update 2 to host c95
+7862.5000 : Host c95 ACCEPTED update 1 -> 2 from host c3
+7914.8000 : Host c4 sent update 2 to host c3
+7914.8000 : Host c3 sent update 2 to host c4
+7915.3000 : Host c0 sent update 2 to host c83
+7918.8000 : Host c3 REJECTED update 2 -> 2 from host c4
+7919.3000 : Host c83 ACCEPTED update 0 -> 2 from host c0
+7924.1000 : Host c4 sent update 2 to host c25
+7928.1000 : Host c25 ACCEPTED update 0 -> 2 from host c4
+7932.4000 : Host c3 sent update 2 to host c92
+7936.4000 : Host c92 REJECTED update 2 -> 2 from host c3
+8068.5000 : Host c2 sent update 2 to host c76
+8072.5000 : Host c76 ACCEPTED update 0 -> 2 from host c2
+8170.7000 : Host c1 sent update 2 to host c57
+8174.7000 : Host c57 ACCEPTED update 0 -> 2 from host c1
+8240.8000 : Host c0 sent update 2 to host c63
+8244.8000 : Host c63 ACCEPTED update 1 -> 2 from host c0
+8326.4000 : Host c2 sent update 2 to host c35
+8330.4000 : Host c35 ACCEPTED update 1 -> 2 from host c2
+8344.9000 : Host c0 sent update 2 to host c36
+8348.9000 : Host c36 REJECTED update 2 -> 2 from host c0
+8467.1000 : Host c0 sent update 2 to host c70
+8471.1000 : Host c70 ACCEPTED update 1 -> 2 from host c0
+8574.5000 : Host c2 sent update 2 to host c71
+8578.0000 : Host c1 sent update 2 to host c26
+8578.5000 : Host c71 ACCEPTED update 1 -> 2 from host c2
+8582.0000 : Host c26 ACCEPTED update 1 -> 2 from host c1
+8673.9000 : Host c0 sent update 2 to host c80
+8675.5000 : Host c2 sent update 2 to host c30
+8677.9000 : Host c80 ACCEPTED update 0 -> 2 from host c0
+8679.5000 : Host c30 ACCEPTED update 1 -> 2 from host c2
+8789.7000 : Host c1 sent update 2 to host c12
+8793.7000 : Host c12 ACCEPTED update 1 -> 2 from host c1
+9003.7000 : Host c3 sent update 2 to host c13
+9007.7000 : Host c13 ACCEPTED update 0 -> 2 from host c3
+9035.9000 : Host c3 sent update 2 to host c40
+9039.9000 : Host c40 ACCEPTED update 1 -> 2 from host c3
+9174.5000 : Host c1 sent update 2 to host c82
+9178.5000 : Host c82 ACCEPTED update 0 -> 2 from host c1
+9252.3000 : Host c0 sent update 2 to host c1
+9252.3000 : Host c1 sent update 2 to host c0
+9256.3000 : Host c1 REJECTED update 2 -> 2 from host c0
+9260.3000 : Host c0 REJECTED update 2 -> 2 from host c1
+9268.4000 : Host c0 sent update 2 to host c20
+9272.4000 : Host c20 ACCEPTED update 0 -> 2 from host c0
+9455.1000 : Host c4 sent update 2 to host c24
+9459.1000 : Host c24 REJECTED update 2 -> 2 from host c4
+9474.5000 : Host c0 sent update 2 to host c38
+9478.5000 : Host c38 ACCEPTED update 0 -> 2 from host c0
+9510.3000 : Host c1 sent update 2 to host c63
+9514.3000 : Host c63 REJECTED update 2 -> 2 from host c1
+9558.5000 : Host c4 sent update 2 to host c98
+9562.5000 : Host c98 ACCEPTED update 0 -> 2 from host c4
+9715.4000 : Host c1 sent update 2 to host c44
+9719.4000 : Host c44 ACCEPTED update 1 -> 2 from host c1
+9738.9000 : Host c1 sent update 2 to host c20
+9742.9000 : Host c20 REJECTED update 2 -> 2 from host c1
+9781.1000 : Host c0 sent update 2 to host c17
+9785.1000 : Host c17 ACCEPTED update 0 -> 2 from host c0
+9883.3000 : Host c4 sent update 2 to host c21
+9889.6000 : Host c1 sent update 2 to host c38
+9893.6000 : Host c38 REJECTED update 2 -> 2 from host c1
+9996.6000 : Host c3 sent update 2 to host c28
+10000.6000 : Host c28 ACCEPTED update 0 -> 2 from host c3
+10116.9000 : Host c1 sent update 2 to host c22
+10120.9000 : Host c22 ACCEPTED update 0 -> 2 from host c1
+10122.8000 : Host c0 sent update 2 to host c74
+10126.8000 : Host c74 ACCEPTED update 1 -> 2 from host c0
+10184.4000 : Host c4 sent update 2 to host c75
+10187.2000 : Host c1 sent update 2 to host c17
+10188.4000 : Host c75 ACCEPTED update 0 -> 2 from host c4
+10191.2000 : Host c17 REJECTED update 2 -> 2 from host c1
+10220.4000 : Host c0 sent update 2 to host c45
+10224.4000 : Host c45 REJECTED update 2 -> 2 from host c0
+10254.0000 : Host c2 sent update 2 to host c45
+10258.0000 : Host c45 REJECTED update 2 -> 2 from host c2
+10320.7000 : Host c4 sent update 2 to host c14
+10324.7000 : Host c14 REJECTED update 2 -> 2 from host c4
+10377.2000 : Host c2 sent update 2 to host c63
+10381.2000 : Host c63 REJECTED update 2 -> 2 from host c2
+10480.1000 : Host c4 sent update 2 to host c11
+10484.1000 : Host c11 ACCEPTED update 1 -> 2 from host c4
+10546.3000 : Host c4 sent update 2 to host c9
+10550.3000 : Host c9 ACCEPTED update 1 -> 2 from host c4
+10692.1000 : Host c4 sent update 2 to host c94
+10696.1000 : Host c94 ACCEPTED update 1 -> 2 from host c4
+10788.0000 : Host c4 sent update 2 to host c59
+10792.0000 : Host c59 ACCEPTED update 1 -> 2 from host c4
+10800.1000 : Active source host c1 generated a new update - 3
+
+10800.1000 : Active source host c4 generated a new update - 3
+
+10800.1000 : Active source host c3 generated a new update - 3
+
+10800.1000 : Active source host c2 generated a new update - 3
+
+10800.1000 : Active source host c0 generated a new update - 3
+
+10825.8000 : Host c2 sent update 3 to host c43
+10829.8000 : Host c43 ACCEPTED update 0 -> 3 from host c2
+10865.0000 : Host c4 sent update 3 to host c44
+10868.6000 : Host c4 sent update 3 to host c40
+10869.0000 : Host c44 ACCEPTED update 2 -> 3 from host c4
+10873.0000 : Host c40 ACCEPTED update 2 -> 3 from host c4
+11069.7000 : Host c1 sent update 3 to host c83
+11073.7000 : Host c83 ACCEPTED update 2 -> 3 from host c1
+11317.1000 : Host c0 sent update 3 to host c82
+11321.1000 : Host c82 ACCEPTED update 2 -> 3 from host c0
+11345.3000 : Host c2 sent update 3 to host c27
+11349.3000 : Host c27 ACCEPTED update 1 -> 3 from host c2
+11358.5000 : Host c4 sent update 3 to host c64
+11362.5000 : Host c64 ACCEPTED update 1 -> 3 from host c4
+11396.6000 : Host c4 sent update 3 to host c34
+11400.6000 : Host c34 ACCEPTED update 0 -> 3 from host c4
+11457.2000 : Host c4 sent update 3 to host c85
+11461.2000 : Host c85 ACCEPTED update 0 -> 3 from host c4
+11546.5000 : Host c4 sent update 3 to host c81
+11550.5000 : Host c81 ACCEPTED update 1 -> 3 from host c4
+11555.2000 : Host c2 sent update 3 to host c21
+11559.2000 : Host c21 ACCEPTED update 0 -> 3 from host c2
+11583.2000 : Host c4 sent update 3 to host c31
+11587.2000 : Host c31 ACCEPTED update 2 -> 3 from host c4
+11638.5000 : Host c0 sent update 3 to host c70
+11642.5000 : Host c70 ACCEPTED update 2 -> 3 from host c0
+11701.7000 : Host c4 sent update 3 to host c12
+11705.7000 : Host c12 ACCEPTED update 2 -> 3 from host c4
+11788.1000 : Host c3 sent update 3 to host c36
+11792.1000 : Host c36 ACCEPTED update 2 -> 3 from host c3
+11839.5000 : Host c4 sent update 3 to host c84
+11843.5000 : Host c84 ACCEPTED update 1 -> 3 from host c4
+11913.2000 : Host c4 sent update 3 to host c95
+11917.2000 : Host c95 ACCEPTED update 2 -> 3 from host c4
+11932.7000 : Host c1 sent update 3 to host c25
+11936.7000 : Host c25 ACCEPTED update 2 -> 3 from host c1
+12596.3000 : Host c0 sent update 3 to host c55
+12600.3000 : Host c55 ACCEPTED update 0 -> 3 from host c0
+12720.1000 : Host c1 sent update 3 to host c22
+12724.1000 : Host c22 ACCEPTED update 2 -> 3 from host c1
+12866.8000 : Host c3 sent update 3 to host c42
+12870.8000 : Host c42 ACCEPTED update 0 -> 3 from host c3
+12921.4000 : Host c4 sent update 3 to host c88
+12925.4000 : Host c88 ACCEPTED update 1 -> 3 from host c4
+12932.1000 : Host c0 sent update 3 to host c12
+12936.1000 : Host c12 REJECTED update 3 -> 3 from host c0
+12988.5000 : Host c2 sent update 3 to host c41
+12992.5000 : Host c41 ACCEPTED update 0 -> 3 from host c2
+13050.7000 : Host c2 sent update 3 to host c65
+13054.7000 : Host c65 ACCEPTED update 0 -> 3 from host c2
+13086.3000 : Host c3 sent update 3 to host c71
+13090.3000 : Host c71 ACCEPTED update 2 -> 3 from host c3
+13120.4000 : Host c3 sent update 3 to host c101
+13124.4000 : Host c101 ACCEPTED update 1 -> 3 from host c3
+13179.6000 : Host c1 sent update 3 to host c83
+13183.6000 : Host c83 REJECTED update 3 -> 3 from host c1
+13189.4000 : Host c2 sent update 3 to host c30
+13193.4000 : Host c30 ACCEPTED update 2 -> 3 from host c2
+13257.7000 : Host c0 sent update 3 to host c93
+13261.7000 : Host c93 ACCEPTED update 2 -> 3 from host c0
+13308.2000 : Host c1 sent update 3 to host c74
+13312.2000 : Host c74 ACCEPTED update 2 -> 3 from host c1
+13369.6000 : Host c0 sent update 3 to host c49
+13373.6000 : Host c49 ACCEPTED update 0 -> 3 from host c0
+13485.5000 : Host c0 sent update 3 to host c83
+13489.5000 : Host c83 REJECTED update 3 -> 3 from host c0
+13976.5000 : Host c4 sent update 3 to host c7
+13980.5000 : Host c7 ACCEPTED update 0 -> 3 from host c4
+14077.2000 : Host c1 sent update 3 to host c90
+14081.2000 : Host c90 ACCEPTED update 0 -> 3 from host c1
+14144.4000 : Host c4 sent update 3 to host c17
+14148.4000 : Host c17 ACCEPTED update 2 -> 3 from host c4
+14389.0000 : Host c0 sent update 3 to host c81
+14393.0000 : Host c81 REJECTED update 3 -> 3 from host c0
+14400.1000 : Active source host c4 generated a new update - 4
+
+14400.1000 : Active source host c0 generated a new update - 4
+
+14400.1000 : Active source host c2 generated a new update - 4
+
+14400.1000 : Active source host c3 generated a new update - 4
+
+14400.1000 : Active source host c1 generated a new update - 4
+
+14454.4000 : Host c1 sent update 4 to host c81
+14458.4000 : Host c81 ACCEPTED update 3 -> 4 from host c1
+14517.1000 : Host c3 sent update 4 to host c11
+14521.1000 : Host c11 ACCEPTED update 2 -> 4 from host c3
+14528.3000 : Host c4 sent update 4 to host c5
+14532.3000 : Host c5 ACCEPTED update 1 -> 4 from host c4
+14537.7000 : Host c3 sent update 4 to host c101
+14541.7000 : Host c101 ACCEPTED update 3 -> 4 from host c3
+14756.1000 : Host c2 sent update 4 to host c76
+14760.1000 : Host c76 ACCEPTED update 2 -> 4 from host c2
+14921.2000 : Host c3 sent update 4 to host c87
+14925.2000 : Host c87 ACCEPTED update 0 -> 4 from host c3
+14969.5000 : Host c3 sent update 4 to host c29
+14973.5000 : Host c29 ACCEPTED update 0 -> 4 from host c3
+15004.9000 : Host c3 sent update 4 to host c8
+15007.4000 : Host c0 sent update 4 to host c51
+15008.9000 : Host c8 ACCEPTED update 0 -> 4 from host c3
+15011.4000 : Host c51 ACCEPTED update 1 -> 4 from host c0
+15204.0000 : Host c2 sent update 4 to host c79
+15208.0000 : Host c79 ACCEPTED update 2 -> 4 from host c2
+15306.7000 : Host c2 sent update 4 to host c60
+15310.7000 : Host c60 ACCEPTED update 1 -> 4 from host c2
+15330.1000 : Host c0 sent update 4 to host c98
+15334.1000 : Host c98 ACCEPTED update 2 -> 4 from host c0
+15334.6000 : Host c3 sent update 4 to host c55
+15338.6000 : Host c55 ACCEPTED update 3 -> 4 from host c3
+15341.9000 : Host c4 sent update 4 to host c15
+15345.9000 : Host c15 ACCEPTED update 0 -> 4 from host c4
+15360.2000 : Host c2 sent update 4 to host c94
+15364.2000 : Host c94 ACCEPTED update 2 -> 4 from host c2
+15365.2000 : Host c4 sent update 4 to host c43
+15369.2000 : Host c43 ACCEPTED update 3 -> 4 from host c4
+15431.9000 : Host c0 sent update 4 to host c17
+15435.9000 : Host c17 ACCEPTED update 3 -> 4 from host c0
+15464.0000 : Host c3 sent update 4 to host c68
+15468.0000 : Host c68 ACCEPTED update 0 -> 4 from host c3
+15629.6000 : Host c4 sent update 4 to host c28
+15633.6000 : Host c28 ACCEPTED update 2 -> 4 from host c4
+15692.3000 : Host c4 sent update 4 to host c15
+15696.3000 : Host c15 REJECTED update 4 -> 4 from host c4
+15697.7000 : Host c1 sent update 4 to host c12
+15701.7000 : Host c12 ACCEPTED update 3 -> 4 from host c1
+15792.7000 : Host c0 sent update 4 to host c17
+15796.7000 : Host c17 REJECTED update 4 -> 4 from host c0
+15856.2000 : Host c3 sent update 4 to host c72
+15857.6000 : Host c4 sent update 4 to host c68
+15860.2000 : Host c72 ACCEPTED update 1 -> 4 from host c3
+15861.6000 : Host c68 REJECTED update 4 -> 4 from host c4
+15942.1000 : Host c3 sent update 4 to host c49
+15946.1000 : Host c49 ACCEPTED update 3 -> 4 from host c3
+16007.5000 : Host c4 sent update 4 to host c15
+16011.5000 : Host c15 REJECTED update 4 -> 4 from host c4
+16077.8000 : Host c3 sent update 4 to host c63
+16081.8000 : Host c63 ACCEPTED update 2 -> 4 from host c3
+16143.4000 : Host c4 sent update 4 to host c15
+16147.4000 : Host c15 REJECTED update 4 -> 4 from host c4
+16233.2000 : Host c3 sent update 4 to host c38
+16237.2000 : Host c38 ACCEPTED update 2 -> 4 from host c3
+16250.4000 : Host c3 sent update 4 to host c26
+16254.4000 : Host c26 ACCEPTED update 2 -> 4 from host c3
+16395.7000 : Host c4 sent update 4 to host c93
+16399.7000 : Host c93 ACCEPTED update 3 -> 4 from host c4
+16428.2000 : Host c0 sent update 4 to host c47
+16432.2000 : Host c47 ACCEPTED update 0 -> 4 from host c0
+16473.3000 : Host c0 sent update 4 to host c41
+16477.3000 : Host c41 ACCEPTED update 3 -> 4 from host c0
+16482.7000 : Host c1 sent update 4 to host c102
+16486.7000 : Host c102 ACCEPTED update 1 -> 4 from host c1
+16738.3000 : Host c2 sent update 4 to host c35
+16742.3000 : Host c35 ACCEPTED update 2 -> 4 from host c2
+16830.5000 : Host c1 sent update 4 to host c10
+16834.5000 : Host c10 ACCEPTED update 2 -> 4 from host c1
+16886.5000 : Host c4 sent update 4 to host c103
+16890.5000 : Host c103 ACCEPTED update 0 -> 4 from host c4
+16906.2000 : Host c3 sent update 4 to host c73
+16910.2000 : Host c73 ACCEPTED update 1 -> 4 from host c3
+16965.2000 : Host c3 sent update 4 to host c74
+16969.2000 : Host c74 ACCEPTED update 3 -> 4 from host c3
+16974.3000 : Host c1 sent update 4 to host c94
+16978.3000 : Host c94 REJECTED update 4 -> 4 from host c1
+17054.9000 : Host c1 sent update 4 to host c72
+17058.9000 : Host c72 REJECTED update 4 -> 4 from host c1
+17147.9000 : Host c2 sent update 4 to host c65
+17151.9000 : Host c65 ACCEPTED update 3 -> 4 from host c2
+17152.4000 : Host c0 sent update 4 to host c68
+17156.4000 : Host c68 REJECTED update 4 -> 4 from host c0
+17156.8000 : Host c0 sent update 4 to host c88
+17157.3000 : Host c0 sent update 4 to host c61
+17160.8000 : Host c88 ACCEPTED update 3 -> 4 from host c0
+17199.3000 : Host c3 sent update 4 to host c56
+17199.9000 : Host c4 sent update 4 to host c27
+17203.3000 : Host c56 ACCEPTED update 1 -> 4 from host c3
+17203.9000 : Host c27 ACCEPTED update 3 -> 4 from host c4
+17241.2000 : Host c0 sent update 4 to host c84
+17245.2000 : Host c84 ACCEPTED update 3 -> 4 from host c0
+17274.5000 : Host c0 sent update 4 to host c32
+17278.5000 : Host c32 ACCEPTED update 1 -> 4 from host c0
+17279.9000 : Host c0 sent update 4 to host c79
+17283.9000 : Host c79 REJECTED update 4 -> 4 from host c0
+17460.6000 : Host c3 sent update 4 to host c85
+17464.6000 : Host c85 ACCEPTED update 3 -> 4 from host c3
+17523.8000 : Host c0 sent update 4 to host c1
+17523.8000 : Host c1 sent update 4 to host c0
+17527.8000 : Host c1 REJECTED update 4 -> 4 from host c0
+17543.2000 : Host c3 sent update 4 to host c101
+17547.2000 : Host c101 REJECTED update 4 -> 4 from host c3
+17597.0000 : Host c3 sent update 4 to host c44
+17601.0000 : Host c44 ACCEPTED update 3 -> 4 from host c3
+17660.6000 : Host c0 sent update 4 to host c35
+17664.6000 : Host c35 REJECTED update 4 -> 4 from host c0
+17677.0000 : Host c1 sent update 4 to host c39
+17681.0000 : Host c39 ACCEPTED update 0 -> 4 from host c1
+17710.1000 : Host c4 sent update 4 to host c64
+17714.1000 : Host c64 ACCEPTED update 3 -> 4 from host c4
+17895.5000 : Host c3 sent update 4 to host c104
+17899.5000 : Host c104 ACCEPTED update 0 -> 4 from host c3
+17916.7000 : Host c4 sent update 4 to host c26
+17920.7000 : Host c26 REJECTED update 4 -> 4 from host c4
+17949.7000 : Host c4 sent update 4 to host c103
+17953.7000 : Host c103 REJECTED update 4 -> 4 from host c4
+18000.2000 : Active source host c1 generated a new update - 5
+
+18000.2000 : Active source host c2 generated a new update - 5
+
+18000.2000 : Active source host c0 generated a new update - 5
+
+18000.2000 : Active source host c3 generated a new update - 5
+
+18000.2000 : Active source host c4 generated a new update - 5
+
+18024.1000 : Host c0 sent update 5 to host c65
+18028.1000 : Host c65 ACCEPTED update 4 -> 5 from host c0
+18087.5000 : Host c4 sent update 5 to host c10
+18091.5000 : Host c10 ACCEPTED update 4 -> 5 from host c4
+18101.2000 : Host c1 sent update 5 to host c36
+18105.2000 : Host c36 ACCEPTED update 3 -> 5 from host c1
+18196.6000 : Host c4 sent update 5 to host c72
+18200.6000 : Host c72 ACCEPTED update 4 -> 5 from host c4
+18275.2000 : Host c1 sent update 5 to host c49
+18279.2000 : Host c49 ACCEPTED update 4 -> 5 from host c1
+18413.4000 : Host c0 sent update 5 to host c29
+18417.4000 : Host c29 ACCEPTED update 4 -> 5 from host c0
+18432.3000 : Host c1 sent update 5 to host c7
+18436.3000 : Host c7 ACCEPTED update 3 -> 5 from host c1
+18487.2000 : Host c1 sent update 5 to host c78
+18491.2000 : Host c78 ACCEPTED update 1 -> 5 from host c1
+18588.5000 : Host c3 sent update 5 to host c79
+18592.5000 : Host c79 ACCEPTED update 4 -> 5 from host c3
+18685.2000 : Host c3 sent update 5 to host c95
+18689.2000 : Host c95 ACCEPTED update 3 -> 5 from host c3
+18744.3000 : Host c0 sent update 5 to host c74
+18748.3000 : Host c74 ACCEPTED update 4 -> 5 from host c0
+18780.5000 : Host c3 sent update 5 to host c23
+18784.5000 : Host c23 ACCEPTED update 1 -> 5 from host c3
+18788.0000 : Host c2 sent update 5 to host c97
+18792.0000 : Host c97 ACCEPTED update 0 -> 5 from host c2
+18818.0000 : Host c1 sent update 5 to host c68
+18822.0000 : Host c68 ACCEPTED update 4 -> 5 from host c1
+18824.8000 : Host c3 sent update 5 to host c84
+18828.8000 : Host c84 ACCEPTED update 4 -> 5 from host c3
+18843.2000 : Host c1 sent update 5 to host c88
+18847.2000 : Host c88 ACCEPTED update 4 -> 5 from host c1
+18939.1000 : Host c1 sent update 5 to host c20
+18943.1000 : Host c20 ACCEPTED update 2 -> 5 from host c1
+19074.9000 : Host c3 sent update 5 to host c20
+19078.9000 : Host c20 REJECTED update 5 -> 5 from host c3
+19109.8000 : Host c0 sent update 5 to host c89
+19113.8000 : Host c89 ACCEPTED update 1 -> 5 from host c0
+19123.8000 : Host c0 sent update 5 to host c89
+19127.8000 : Host c89 REJECTED update 5 -> 5 from host c0
+19151.4000 : Host c1 sent update 5 to host c76
+19155.4000 : Host c76 ACCEPTED update 4 -> 5 from host c1
+19235.1000 : Host c1 sent update 5 to host c39
+19239.1000 : Host c39 ACCEPTED update 4 -> 5 from host c1
+19324.8000 : Host c3 sent update 5 to host c76
+19328.8000 : Host c76 REJECTED update 5 -> 5 from host c3
+19342.0000 : Host c4 sent update 5 to host c77
+19346.0000 : Host c77 ACCEPTED update 0 -> 5 from host c4
+19398.6000 : Host c3 sent update 5 to host c39
+19402.6000 : Host c39 REJECTED update 5 -> 5 from host c3
+19435.4000 : Host c3 sent update 5 to host c46
+19439.4000 : Host c46 ACCEPTED update 0 -> 5 from host c3
+19459.5000 : Host c2 sent update 5 to host c79
+19463.5000 : Host c79 REJECTED update 5 -> 5 from host c2
+19472.2000 : Host c1 sent update 5 to host c82
+19476.2000 : Host c82 ACCEPTED update 3 -> 5 from host c1
+19492.9000 : Host c0 sent update 5 to host c18
+19496.9000 : Host c18 ACCEPTED update 1 -> 5 from host c0
+19502.8000 : Host c2 sent update 5 to host c95
+19506.8000 : Host c95 REJECTED update 5 -> 5 from host c2
+19662.1000 : Host c3 sent update 5 to host c82
+19666.1000 : Host c82 REJECTED update 5 -> 5 from host c3
+19742.2000 : Host c0 sent update 5 to host c42
+19746.2000 : Host c42 ACCEPTED update 3 -> 5 from host c0
+20024.9000 : Host c2 sent update 5 to host c100
+20028.1000 : Host c3 sent update 5 to host c77
+20028.9000 : Host c100 ACCEPTED update 0 -> 5 from host c2
+20032.1000 : Host c77 REJECTED update 5 -> 5 from host c3
+20136.5000 : Host c1 sent update 5 to host c103
+20140.5000 : Host c103 ACCEPTED update 4 -> 5 from host c1
+20159.7000 : Host c4 sent update 5 to host c99
+20163.7000 : Host c99 ACCEPTED update 2 -> 5 from host c4
+20194.1000 : Host c1 sent update 5 to host c77
+20198.1000 : Host c77 REJECTED update 5 -> 5 from host c1
+20209.8000 : Host c2 sent update 5 to host c62
+20213.8000 : Host c62 ACCEPTED update 0 -> 5 from host c2
+20392.4000 : Host c0 sent update 5 to host c15
+20396.4000 : Host c15 ACCEPTED update 4 -> 5 from host c0
+20451.3000 : Host c3 sent update 5 to host c70
+20455.3000 : Host c70 ACCEPTED update 3 -> 5 from host c3
+20540.5000 : Host c0 sent update 5 to host c101
+20544.5000 : Host c101 ACCEPTED update 4 -> 5 from host c0
+20654.9000 : Host c0 sent update 5 to host c86
+20658.9000 : Host c86 ACCEPTED update 1 -> 5 from host c0
+20742.7000 : Host c0 sent update 5 to host c41
+20746.7000 : Host c41 ACCEPTED update 4 -> 5 from host c0
+20877.6000 : Host c1 sent update 5 to host c73
+20881.6000 : Host c73 ACCEPTED update 4 -> 5 from host c1
+20913.6000 : Host c4 sent update 5 to host c93
+20917.6000 : Host c93 ACCEPTED update 4 -> 5 from host c4
+21154.5000 : Host c3 sent update 5 to host c81
+21158.5000 : Host c81 ACCEPTED update 4 -> 5 from host c3
+21173.3000 : Host c3 sent update 5 to host c33
+21177.3000 : Host c33 ACCEPTED update 0 -> 5 from host c3
+21183.5000 : Host c0 sent update 5 to host c89
+21187.5000 : Host c89 REJECTED update 5 -> 5 from host c0
+21384.5000 : Host c4 sent update 5 to host c53
+21388.5000 : Host c53 ACCEPTED update 1 -> 5 from host c4
+21542.3000 : Host c1 sent update 5 to host c30
+21546.3000 : Host c30 ACCEPTED update 3 -> 5 from host c1
+21554.6000 : Host c0 sent update 5 to host c70
+21558.6000 : Host c70 REJECTED update 5 -> 5 from host c0
+21600.3000 : Active source host c4 generated a new update - 6
+
+21600.3000 : Active source host c1 generated a new update - 6
+
+21600.3000 : Active source host c0 generated a new update - 6
+
+21600.3000 : Active source host c2 generated a new update - 6
+
+21600.3000 : Active source host c3 generated a new update - 6
+
+21652.4000 : Host c4 sent update 6 to host c103
+21656.4000 : Host c103 ACCEPTED update 5 -> 6 from host c4
+21658.4000 : Host c2 sent update 6 to host c37
+21662.4000 : Host c37 ACCEPTED update 0 -> 6 from host c2
+21665.6000 : Host c4 sent update 6 to host c53
+21669.6000 : Host c53 ACCEPTED update 5 -> 6 from host c4
+21874.4000 : Host c2 sent update 6 to host c97
+21878.4000 : Host c97 ACCEPTED update 5 -> 6 from host c2
+21943.0000 : Host c1 sent update 6 to host c7
+21947.0000 : Host c7 ACCEPTED update 5 -> 6 from host c1
+21976.6000 : Host c3 sent update 6 to host c48
+21980.6000 : Host c48 ACCEPTED update 0 -> 6 from host c3
+22035.3000 : Host c0 sent update 6 to host c53
+22039.3000 : Host c53 REJECTED update 6 -> 6 from host c0
+22160.6000 : Host c2 sent update 6 to host c32
+22164.6000 : Host c32 ACCEPTED update 4 -> 6 from host c2
+22176.1000 : Host c0 sent update 6 to host c100
+22180.1000 : Host c100 ACCEPTED update 5 -> 6 from host c0
+22260.8000 : Host c1 sent update 6 to host c34
+22264.5000 : Host c0 sent update 6 to host c24
+22264.8000 : Host c34 ACCEPTED update 3 -> 6 from host c1
+22268.5000 : Host c24 ACCEPTED update 2 -> 6 from host c0
+22314.0000 : Host c1 sent update 6 to host c50
+22318.0000 : Host c50 ACCEPTED update 0 -> 6 from host c1
+22356.0000 : Host c3 sent update 6 to host c71
+22360.0000 : Host c71 ACCEPTED update 3 -> 6 from host c3
+22360.5000 : Host c1 sent update 6 to host c21
+22361.4000 : Host c2 sent update 6 to host c22
+22364.5000 : Host c21 ACCEPTED update 3 -> 6 from host c1
+22365.4000 : Host c22 ACCEPTED update 3 -> 6 from host c2
+22422.2000 : Host c2 sent update 6 to host c41
+22426.2000 : Host c41 ACCEPTED update 5 -> 6 from host c2
+22487.0000 : Host c0 sent update 6 to host c31
+22491.0000 : Host c31 ACCEPTED update 3 -> 6 from host c0
+22495.0000 : Host c0 sent update 6 to host c59
+22499.0000 : Host c59 ACCEPTED update 2 -> 6 from host c0
+22524.0000 : Host c2 sent update 6 to host c82
+22528.0000 : Host c82 ACCEPTED update 5 -> 6 from host c2
+22618.4000 : Host c2 sent update 6 to host c64
+22622.4000 : Host c64 ACCEPTED update 4 -> 6 from host c2
+22663.2000 : Host c3 sent update 6 to host c28
+22667.2000 : Host c28 ACCEPTED update 4 -> 6 from host c3
+22675.9000 : Host c1 sent update 6 to host c78
+22679.9000 : Host c78 ACCEPTED update 5 -> 6 from host c1
+22831.4000 : Host c1 sent update 6 to host c67
+22835.4000 : Host c67 ACCEPTED update 1 -> 6 from host c1
+22943.4000 : Host c2 sent update 6 to host c19
+22947.4000 : Host c19 ACCEPTED update 1 -> 6 from host c2
+23027.3000 : Host c0 sent update 6 to host c57
+23031.3000 : Host c57 ACCEPTED update 2 -> 6 from host c0
+23110.1000 : Host c2 sent update 6 to host c102
+23114.1000 : Host c102 ACCEPTED update 4 -> 6 from host c2
+23220.7000 : Host c1 sent update 6 to host c18
+23224.7000 : Host c18 ACCEPTED update 5 -> 6 from host c1
+23309.7000 : Host c3 sent update 6 to host c17
+23313.7000 : Host c17 ACCEPTED update 4 -> 6 from host c3
+23340.1000 : Host c1 sent update 6 to host c49
+23344.1000 : Host c49 ACCEPTED update 5 -> 6 from host c1
+23350.4000 : Host c0 sent update 6 to host c62
+23354.4000 : Host c62 ACCEPTED update 5 -> 6 from host c0
+23355.2000 : Host c4 sent update 6 to host c88
+23359.2000 : Host c88 ACCEPTED update 5 -> 6 from host c4
+23372.4000 : Host c2 sent update 6 to host c103
+23376.4000 : Host c103 REJECTED update 6 -> 6 from host c2
+23402.7000 : Host c4 sent update 6 to host c32
+23406.7000 : Host c32 REJECTED update 6 -> 6 from host c4
+23429.5000 : Host c4 sent update 6 to host c15
+23433.5000 : Host c15 ACCEPTED update 5 -> 6 from host c4
+23494.4000 : Host c3 sent update 6 to host c51
+23495.6000 : Host c2 sent update 6 to host c47
+23498.4000 : Host c51 ACCEPTED update 4 -> 6 from host c3
+23499.6000 : Host c47 ACCEPTED update 4 -> 6 from host c2
+23521.0000 : Host c4 sent update 6 to host c21
+23525.0000 : Host c21 REJECTED update 6 -> 6 from host c4
+23547.1000 : Host c4 sent update 6 to host c6
+23788.7000 : Host c4 sent update 6 to host c24
+23792.7000 : Host c24 REJECTED update 6 -> 6 from host c4
+23845.5000 : Host c3 sent update 6 to host c100
+23849.5000 : Host c100 REJECTED update 6 -> 6 from host c3
+24047.1000 : Host c2 sent update 6 to host c92
+24051.1000 : Host c92 ACCEPTED update 2 -> 6 from host c2
+24075.2000 : Host c0 sent update 6 to host c14
+24079.2000 : Host c14 ACCEPTED update 2 -> 6 from host c0
+24139.5000 : Host c1 sent update 6 to host c71
+24143.5000 : Host c71 REJECTED update 6 -> 6 from host c1
+24244.7000 : Host c3 sent update 6 to host c34
+24248.7000 : Host c34 REJECTED update 6 -> 6 from host c3
+24258.8000 : Host c3 sent update 6 to host c20
+24262.8000 : Host c20 ACCEPTED update 5 -> 6 from host c3
+24290.0000 : Host c3 sent update 6 to host c39
+24294.0000 : Host c39 ACCEPTED update 5 -> 6 from host c3
+24335.5000 : Host c3 sent update 6 to host c56
+24339.5000 : Host c56 ACCEPTED update 4 -> 6 from host c3
+24465.0000 : Host c2 sent update 6 to host c30
+24469.0000 : Host c30 ACCEPTED update 5 -> 6 from host c2
+24536.9000 : Host c3 sent update 6 to host c84
+24540.9000 : Host c84 ACCEPTED update 5 -> 6 from host c3
+24552.6000 : Host c2 sent update 6 to host c102
+24552.9000 : Host c2 sent update 6 to host c50
+24556.6000 : Host c102 REJECTED update 6 -> 6 from host c2
+24568.2000 : Host c2 sent update 6 to host c5
+24572.2000 : Host c5 ACCEPTED update 4 -> 6 from host c2
+24610.4000 : Host c2 sent update 6 to host c52
+24614.4000 : Host c52 ACCEPTED update 0 -> 6 from host c2
+24646.6000 : Host c3 sent update 6 to host c95
+24650.6000 : Host c95 ACCEPTED update 5 -> 6 from host c3
+24876.3000 : Host c3 sent update 6 to host c74
+24880.3000 : Host c74 ACCEPTED update 5 -> 6 from host c3
+24994.3000 : Host c2 sent update 6 to host c75
+24998.3000 : Host c75 ACCEPTED update 2 -> 6 from host c2
+25009.1000 : Host c1 sent update 6 to host c13
+25013.1000 : Host c13 ACCEPTED update 2 -> 6 from host c1
+25144.9000 : Host c2 sent update 6 to host c31
+25148.9000 : Host c31 REJECTED update 6 -> 6 from host c2
+25151.1000 : Host c1 sent update 6 to host c97
+25155.1000 : Host c97 REJECTED update 6 -> 6 from host c1
+25170.0000 : Host c1 sent update 6 to host c77
+25174.0000 : Host c77 ACCEPTED update 5 -> 6 from host c1
+25200.4000 : Active source host c3 generated a new update - 7
+
+25200.4000 : Active source host c4 generated a new update - 7
+
+25200.4000 : Active source host c2 generated a new update - 7
+
+25200.4000 : Active source host c1 generated a new update - 7
+
+25200.4000 : Active source host c0 generated a new update - 7
+
+25204.1000 : Host c0 sent update 7 to host c30
+25208.1000 : Host c30 ACCEPTED update 6 -> 7 from host c0
+25270.8000 : Host c2 sent update 7 to host c65
+25274.3000 : Host c1 sent update 7 to host c72
+25274.8000 : Host c65 ACCEPTED update 5 -> 7 from host c2
+25278.3000 : Host c72 ACCEPTED update 5 -> 7 from host c1
+25356.2000 : Host c1 sent update 7 to host c28
+25360.2000 : Host c28 ACCEPTED update 6 -> 7 from host c1
+25530.4000 : Host c3 sent update 7 to host c58
+25534.4000 : Host c58 ACCEPTED update 1 -> 7 from host c3
+25547.9000 : Host c1 sent update 7 to host c50
+25551.9000 : Host c50 ACCEPTED update 6 -> 7 from host c1
+25570.5000 : Host c4 sent update 7 to host c99
+25574.5000 : Host c99 ACCEPTED update 5 -> 7 from host c4
+25613.6000 : Host c3 sent update 7 to host c42
+25617.0000 : Host c1 sent update 7 to host c0
+25617.0000 : Host c0 sent update 7 to host c1
+25617.6000 : Host c42 ACCEPTED update 5 -> 7 from host c3
+25621.0000 : Host c0 REJECTED update 7 -> 7 from host c1
+25625.0000 : Host c1 REJECTED update 7 -> 7 from host c0
+25641.6000 : Host c2 sent update 7 to host c11
+25645.6000 : Host c11 ACCEPTED update 4 -> 7 from host c2
+25672.0000 : Host c0 sent update 7 to host c76
+25676.0000 : Host c76 ACCEPTED update 5 -> 7 from host c0
+25677.1000 : Host c2 sent update 7 to host c10
+25681.1000 : Host c10 ACCEPTED update 5 -> 7 from host c2
+25683.5000 : Host c2 sent update 7 to host c96
+25687.5000 : Host c96 ACCEPTED update 1 -> 7 from host c2
+25797.5000 : Host c2 sent update 7 to host c100
+25801.5000 : Host c100 ACCEPTED update 6 -> 7 from host c2
+25859.3000 : Host c1 sent update 7 to host c60
+25863.3000 : Host c60 ACCEPTED update 4 -> 7 from host c1
+25922.3000 : Host c3 sent update 7 to host c57
+25926.3000 : Host c57 ACCEPTED update 6 -> 7 from host c3
+26132.7000 : Host c2 sent update 7 to host c45
+26136.7000 : Host c45 ACCEPTED update 2 -> 7 from host c2
+26222.7000 : Host c2 sent update 7 to host c39
+26226.7000 : Host c39 ACCEPTED update 6 -> 7 from host c2
+26245.3000 : Host c3 sent update 7 to host c73
+26249.3000 : Host c73 ACCEPTED update 5 -> 7 from host c3
+26314.6000 : Host c2 sent update 7 to host c62
+26318.6000 : Host c62 ACCEPTED update 6 -> 7 from host c2
+26542.1000 : Host c1 sent update 7 to host c84
+26546.1000 : Host c84 ACCEPTED update 6 -> 7 from host c1
+26607.6000 : Host c4 sent update 7 to host c71
+26611.6000 : Host c71 ACCEPTED update 6 -> 7 from host c4
+26832.0000 : Host c3 sent update 7 to host c54
+26836.0000 : Host c54 ACCEPTED update 2 -> 7 from host c3
+26903.8000 : Host c4 sent update 7 to host c34
+26907.8000 : Host c34 ACCEPTED update 6 -> 7 from host c4
+26922.4000 : Host c3 sent update 7 to host c99
+26926.4000 : Host c99 REJECTED update 7 -> 7 from host c3
+27199.9000 : Host c4 sent update 7 to host c44
+27203.9000 : Host c44 ACCEPTED update 4 -> 7 from host c4
+27276.3000 : Host c2 sent update 7 to host c58
+27280.3000 : Host c58 REJECTED update 7 -> 7 from host c2
+27337.9000 : Host c4 sent update 7 to host c7
+27341.9000 : Host c7 ACCEPTED update 6 -> 7 from host c4
+27404.7000 : Host c1 sent update 7 to host c102
+27408.7000 : Host c102 ACCEPTED update 6 -> 7 from host c1
+27450.8000 : Host c4 sent update 7 to host c77
+27454.8000 : Host c77 ACCEPTED update 6 -> 7 from host c4
+27479.5000 : Host c4 sent update 7 to host c46
+27483.5000 : Host c46 ACCEPTED update 5 -> 7 from host c4
+27499.3000 : Host c2 sent update 7 to host c94
+27503.3000 : Host c94 ACCEPTED update 4 -> 7 from host c2
+27580.0000 : Host c1 sent update 7 to host c101
+27584.0000 : Host c101 ACCEPTED update 5 -> 7 from host c1
+27597.9000 : Host c0 sent update 7 to host c11
+27601.9000 : Host c11 REJECTED update 7 -> 7 from host c0
+27635.6000 : Host c0 sent update 7 to host c13
+27639.6000 : Host c13 ACCEPTED update 6 -> 7 from host c0
+27659.6000 : Host c1 sent update 7 to host c45
+27663.6000 : Host c45 REJECTED update 7 -> 7 from host c1
+27743.0000 : Host c3 sent update 7 to host c21
+27747.0000 : Host c21 ACCEPTED update 6 -> 7 from host c3
+27778.2000 : Host c4 sent update 7 to host c84
+27782.2000 : Host c84 REJECTED update 7 -> 7 from host c4
+27880.5000 : Host c3 sent update 7 to host c94
+27884.5000 : Host c94 REJECTED update 7 -> 7 from host c3
+28036.7000 : Host c2 sent update 7 to host c72
+28040.7000 : Host c72 REJECTED update 7 -> 7 from host c2
+28154.3000 : Host c1 sent update 7 to host c24
+28158.3000 : Host c24 ACCEPTED update 6 -> 7 from host c1
+28217.4000 : Host c2 sent update 7 to host c60
+28221.4000 : Host c60 REJECTED update 7 -> 7 from host c2
+28233.9000 : Host c3 sent update 7 to host c52
+28237.9000 : Host c52 ACCEPTED update 6 -> 7 from host c3
+28366.3000 : Host c1 sent update 7 to host c20
+28370.3000 : Host c20 ACCEPTED update 6 -> 7 from host c1
+28384.1000 : Host c2 sent update 7 to host c36
+28388.1000 : Host c36 ACCEPTED update 5 -> 7 from host c2
+28471.2000 : Host c3 sent update 7 to host c90
+28475.2000 : Host c90 ACCEPTED update 3 -> 7 from host c3
+28657.2000 : Host c1 sent update 7 to host c62
+28661.2000 : Host c62 REJECTED update 7 -> 7 from host c1
+28758.3000 : Host c3 sent update 7 to host c33
+28762.3000 : Host c33 ACCEPTED update 5 -> 7 from host c3
+28800.5000 : Active source host c4 generated a new update - 8
+
+28800.5000 : Active source host c0 generated a new update - 8
+
+28800.5000 : Active source host c3 generated a new update - 8
+
+28800.5000 : Active source host c1 generated a new update - 8
+
+28800.5000 : Active source host c2 generated a new update - 8
+
+28906.0000 : Host c3 sent update 8 to host c72
+28910.0000 : Host c72 ACCEPTED update 7 -> 8 from host c3
+28922.7000 : Host c4 sent update 8 to host c39
+28926.7000 : Host c39 ACCEPTED update 7 -> 8 from host c4
+28967.1000 : Host c3 sent update 8 to host c12
+28971.1000 : Host c12 ACCEPTED update 4 -> 8 from host c3
+28991.1000 : Host c3 sent update 8 to host c63
+28995.1000 : Host c63 ACCEPTED update 4 -> 8 from host c3
+29008.3000 : Host c3 sent update 8 to host c41
+29012.3000 : Host c41 ACCEPTED update 6 -> 8 from host c3
+29117.4000 : Host c3 sent update 8 to host c81
+29121.4000 : Host c81 ACCEPTED update 5 -> 8 from host c3
+29169.6000 : Host c2 sent update 8 to host c39
+29173.6000 : Host c39 REJECTED update 8 -> 8 from host c2
+29197.5000 : Host c4 sent update 8 to host c64
+29201.5000 : Host c64 ACCEPTED update 6 -> 8 from host c4
+29210.1000 : Host c2 sent update 8 to host c80
+29214.1000 : Host c80 ACCEPTED update 2 -> 8 from host c2
+29252.2000 : Host c0 sent update 8 to host c32
+29256.2000 : Host c32 ACCEPTED update 6 -> 8 from host c0
+29260.4000 : Host c3 sent update 8 to host c36
+29264.4000 : Host c36 ACCEPTED update 7 -> 8 from host c3
+29388.3000 : Host c4 sent update 8 to host c46
+29392.3000 : Host c46 ACCEPTED update 7 -> 8 from host c4
+29489.0000 : Host c1 sent update 8 to host c11
+29493.0000 : Host c11 ACCEPTED update 7 -> 8 from host c1
+29497.3000 : Host c4 sent update 8 to host c91
+29501.3000 : Host c91 ACCEPTED update 0 -> 8 from host c4
+29528.8000 : Host c1 sent update 8 to host c49
+29530.4000 : Host c4 sent update 8 to host c78
+29532.8000 : Host c49 ACCEPTED update 6 -> 8 from host c1
+29534.4000 : Host c78 ACCEPTED update 6 -> 8 from host c4
+29547.4000 : Host c4 sent update 8 to host c21
+29551.4000 : Host c21 ACCEPTED update 7 -> 8 from host c4
+29598.5000 : Host c4 sent update 8 to host c64
+29602.5000 : Host c64 REJECTED update 8 -> 8 from host c4
+29719.8000 : Host c1 sent update 8 to host c43
+29723.8000 : Host c43 ACCEPTED update 4 -> 8 from host c1
+29757.0000 : Host c0 sent update 8 to host c46
+29761.0000 : Host c46 REJECTED update 8 -> 8 from host c0
+29779.1000 : Host c3 sent update 8 to host c50
+29783.1000 : Host c50 ACCEPTED update 7 -> 8 from host c3
+29832.4000 : Host c0 sent update 8 to host c91
+29836.4000 : Host c91 REJECTED update 8 -> 8 from host c0
+29881.9000 : Host c0 sent update 8 to host c78
+29885.9000 : Host c78 REJECTED update 8 -> 8 from host c0
+29959.6000 : Host c1 sent update 8 to host c95
+29963.6000 : Host c95 ACCEPTED update 6 -> 8 from host c1
+29976.9000 : Host c1 sent update 8 to host c18
+29980.9000 : Host c18 ACCEPTED update 6 -> 8 from host c1
+30006.7000 : Host c3 sent update 8 to host c54
+30010.7000 : Host c54 ACCEPTED update 7 -> 8 from host c3
+30234.9000 : Host c1 sent update 8 to host c14
+30238.9000 : Host c14 ACCEPTED update 6 -> 8 from host c1
+30242.3000 : Host c0 sent update 8 to host c46
+30246.3000 : Host c46 REJECTED update 8 -> 8 from host c0
+30392.6000 : Host c3 sent update 8 to host c42
+30396.6000 : Host c42 ACCEPTED update 7 -> 8 from host c3
+30413.5000 : Host c1 sent update 8 to host c67
+30417.5000 : Host c67 ACCEPTED update 6 -> 8 from host c1
+30451.9000 : Host c1 sent update 8 to host c53
+30455.9000 : Host c53 ACCEPTED update 6 -> 8 from host c1
+30497.0000 : Host c1 sent update 8 to host c48
+30501.0000 : Host c48 ACCEPTED update 6 -> 8 from host c1
+30529.4000 : Host c0 sent update 8 to host c24
+30533.4000 : Host c24 ACCEPTED update 7 -> 8 from host c0
+30569.4000 : Host c0 sent update 8 to host c103
+30573.4000 : Host c103 ACCEPTED update 6 -> 8 from host c0
+30617.7000 : Host c3 sent update 8 to host c94
+30621.7000 : Host c94 ACCEPTED update 7 -> 8 from host c3
+30659.8000 : Host c3 sent update 8 to host c8
+30663.8000 : Host c8 ACCEPTED update 4 -> 8 from host c3
+30730.6000 : Host c3 sent update 8 to host c48
+30734.6000 : Host c48 REJECTED update 8 -> 8 from host c3
+30770.8000 : Host c2 sent update 8 to host c19
+30774.1000 : Host c0 sent update 8 to host c98
+30774.8000 : Host c19 ACCEPTED update 6 -> 8 from host c2
+30778.1000 : Host c98 ACCEPTED update 4 -> 8 from host c0
+30881.5000 : Host c2 sent update 8 to host c75
+30885.5000 : Host c75 ACCEPTED update 6 -> 8 from host c2
+30971.6000 : Host c0 sent update 8 to host c101
+30975.6000 : Host c101 ACCEPTED update 7 -> 8 from host c0
+31023.9000 : Host c0 sent update 8 to host c99
+31027.9000 : Host c99 ACCEPTED update 7 -> 8 from host c0
+31075.9000 : Host c4 sent update 8 to host c55
+31079.9000 : Host c55 ACCEPTED update 4 -> 8 from host c4
+31257.8000 : Host c0 sent update 8 to host c21
+31261.8000 : Host c21 REJECTED update 8 -> 8 from host c0
+31369.8000 : Host c4 sent update 8 to host c49
+31373.8000 : Host c49 REJECTED update 8 -> 8 from host c4
+31402.1000 : Host c2 sent update 8 to host c68
+31406.1000 : Host c68 ACCEPTED update 5 -> 8 from host c2
+31426.2000 : Host c1 sent update 8 to host c7
+31430.2000 : Host c7 ACCEPTED update 7 -> 8 from host c1
+31522.1000 : Host c4 sent update 8 to host c35
+31526.1000 : Host c35 ACCEPTED update 4 -> 8 from host c4
+31531.4000 : Host c4 sent update 8 to host c64
+31535.4000 : Host c64 REJECTED update 8 -> 8 from host c4
+31551.3000 : Host c0 sent update 8 to host c58
+31555.3000 : Host c58 ACCEPTED update 7 -> 8 from host c0
+31558.6000 : Host c0 sent update 8 to host c37
+31562.6000 : Host c37 ACCEPTED update 6 -> 8 from host c0
+31856.4000 : Host c4 sent update 8 to host c50
+31860.4000 : Host c50 REJECTED update 8 -> 8 from host c4
+31914.0000 : Host c1 sent update 8 to host c71
+31918.0000 : Host c71 ACCEPTED update 7 -> 8 from host c1
+32025.7000 : Host c4 sent update 8 to host c31
+32029.7000 : Host c31 ACCEPTED update 6 -> 8 from host c4
+32059.9000 : Host c4 sent update 8 to host c79
+32063.9000 : Host c79 ACCEPTED update 5 -> 8 from host c4
+32264.8000 : Host c4 sent update 8 to host c36
+32268.8000 : Host c36 REJECTED update 8 -> 8 from host c4
+32271.4000 : Host c3 sent update 8 to host c69
+32275.4000 : Host c69 ACCEPTED update 0 -> 8 from host c3
+32295.9000 : Host c3 sent update 8 to host c51
+32299.9000 : Host c51 ACCEPTED update 6 -> 8 from host c3
+32321.5000 : Host c4 sent update 8 to host c77
+32325.5000 : Host c77 ACCEPTED update 7 -> 8 from host c4
+32400.6000 : Active source host c3 generated a new update - 9
+
+32400.6000 : Active source host c1 generated a new update - 9
+
+32400.6000 : Active source host c0 generated a new update - 9
+
+32400.6000 : Active source host c2 generated a new update - 9
+
+32400.6000 : Active source host c4 generated a new update - 9
+
+32464.6000 : Host c3 sent update 9 to host c32
+32464.7000 : Host c2 sent update 9 to host c99
+32465.5000 : Host c3 sent update 9 to host c9
+32468.6000 : Host c32 ACCEPTED update 8 -> 9 from host c3
+32468.7000 : Host c99 ACCEPTED update 8 -> 9 from host c2
+32472.6000 : Host c9 ACCEPTED update 2 -> 9 from host c3
+32476.7000 : Host c2 sent update 9 to host c21
+32480.2000 : Host c0 sent update 9 to host c1
+32480.2000 : Host c1 sent update 9 to host c0
+32480.7000 : Host c21 ACCEPTED update 8 -> 9 from host c2
+32484.2000 : Host c1 REJECTED update 9 -> 9 from host c0
+32488.1000 : Host c2 sent update 9 to host c75
+32492.1000 : Host c75 ACCEPTED update 8 -> 9 from host c2
+32511.1000 : Host c2 sent update 9 to host c57
+32515.1000 : Host c57 ACCEPTED update 7 -> 9 from host c2
+32683.3000 : Host c4 sent update 9 to host c94
+32687.3000 : Host c94 ACCEPTED update 8 -> 9 from host c4
+32690.4000 : Host c4 sent update 9 to host c16
+32694.4000 : Host c16 ACCEPTED update 0 -> 9 from host c4
+32728.0000 : Host c3 sent update 9 to host c34
+32730.8000 : Host c3 sent update 9 to host c7
+32732.0000 : Host c34 ACCEPTED update 7 -> 9 from host c3
+32736.0000 : Host c7 ACCEPTED update 8 -> 9 from host c3
+32890.6000 : Host c0 sent update 9 to host c63
+32894.6000 : Host c63 ACCEPTED update 8 -> 9 from host c0
+33070.0000 : Host c3 sent update 9 to host c28
+33074.0000 : Host c28 ACCEPTED update 7 -> 9 from host c3
+33271.7000 : Host c2 sent update 9 to host c101
+33275.7000 : Host c101 ACCEPTED update 8 -> 9 from host c2
+33363.5000 : Host c4 sent update 9 to host c48
+33367.5000 : Host c48 ACCEPTED update 8 -> 9 from host c4
+33532.2000 : Host c3 sent update 9 to host c42
+33536.2000 : Host c42 ACCEPTED update 8 -> 9 from host c3
+33640.0000 : Host c1 sent update 9 to host c68
+33644.0000 : Host c68 ACCEPTED update 8 -> 9 from host c1
+33772.4000 : Host c4 sent update 9 to host c17
+33776.4000 : Host c17 ACCEPTED update 6 -> 9 from host c4
+34068.8000 : Host c2 sent update 9 to host c97
+34072.8000 : Host c97 ACCEPTED update 6 -> 9 from host c2
+34074.0000 : Host c2 sent update 9 to host c99
+34078.0000 : Host c99 REJECTED update 9 -> 9 from host c2
+34094.5000 : Host c2 sent update 9 to host c49
+34098.5000 : Host c49 ACCEPTED update 8 -> 9 from host c2
+34160.9000 : Host c4 sent update 9 to host c82
+34164.9000 : Host c82 ACCEPTED update 6 -> 9 from host c4
+34183.4000 : Host c4 sent update 9 to host c56
+34187.4000 : Host c56 ACCEPTED update 6 -> 9 from host c4
+34245.0000 : Host c4 sent update 9 to host c60
+34249.0000 : Host c60 ACCEPTED update 7 -> 9 from host c4
+34273.8000 : Host c4 sent update 9 to host c87
+34277.8000 : Host c87 ACCEPTED update 4 -> 9 from host c4
+34290.5000 : Host c4 sent update 9 to host c73
+34294.5000 : Host c73 ACCEPTED update 7 -> 9 from host c4
+34440.9000 : Host c1 sent update 9 to host c35
+34443.8000 : Host c1 sent update 9 to host c37
+34444.9000 : Host c35 ACCEPTED update 8 -> 9 from host c1
+34448.9000 : Host c37 ACCEPTED update 8 -> 9 from host c1
+34492.5000 : Host c2 sent update 9 to host c15
+34496.5000 : Host c15 ACCEPTED update 6 -> 9 from host c2
+34504.3000 : Host c1 sent update 9 to host c11
+34508.3000 : Host c11 ACCEPTED update 8 -> 9 from host c1
+34591.3000 : Host c1 sent update 9 to host c12
+34595.3000 : Host c12 ACCEPTED update 8 -> 9 from host c1
+34646.6000 : Host c1 sent update 9 to host c86
+34650.6000 : Host c86 ACCEPTED update 5 -> 9 from host c1
+34682.2000 : Host c1 sent update 9 to host c5
+34686.2000 : Host c5 ACCEPTED update 6 -> 9 from host c1
+34814.3000 : Host c2 sent update 9 to host c32
+34818.3000 : Host c32 REJECTED update 9 -> 9 from host c2
+34893.7000 : Host c4 sent update 9 to host c95
+34897.7000 : Host c95 ACCEPTED update 8 -> 9 from host c4
+34937.5000 : Host c1 sent update 9 to host c30
+34941.5000 : Host c30 ACCEPTED update 7 -> 9 from host c1
+35008.8000 : Host c4 sent update 9 to host c91
+35012.8000 : Host c91 ACCEPTED update 8 -> 9 from host c4
+35205.1000 : Host c0 sent update 9 to host c6
+35209.1000 : Host c6 ACCEPTED update 0 -> 9 from host c0
+35249.8000 : Host c4 sent update 9 to host c59
+35253.5000 : Host c2 sent update 9 to host c61
+35253.8000 : Host c59 ACCEPTED update 6 -> 9 from host c4
+35257.5000 : Host c61 ACCEPTED update 1 -> 9 from host c2
+35260.2000 : Host c1 sent update 9 to host c51
+35264.2000 : Host c51 ACCEPTED update 8 -> 9 from host c1
+35312.3000 : Host c4 sent update 9 to host c94
+35316.3000 : Host c94 REJECTED update 9 -> 9 from host c4
+35469.9000 : Host c3 sent update 9 to host c7
+35473.9000 : Host c7 REJECTED update 9 -> 9 from host c3
+35490.2000 : Host c2 sent update 9 to host c104
+35494.2000 : Host c104 ACCEPTED update 4 -> 9 from host c2
+35501.0000 : Host c3 sent update 9 to host c97
+35505.0000 : Host c97 REJECTED update 9 -> 9 from host c3
+35577.6000 : Host c0 sent update 9 to host c65
+35581.6000 : Host c65 ACCEPTED update 7 -> 9 from host c0
+35583.2000 : Host c4 sent update 9 to host c18
+35587.2000 : Host c18 ACCEPTED update 8 -> 9 from host c4
+36000.7000 : Active source host c3 generated a new update - 10
+
+36000.7000 : Active source host c0 generated a new update - 10
+
+36000.7000 : Active source host c4 generated a new update - 10
+
+36000.7000 : Active source host c2 generated a new update - 10
+
+36000.7000 : Active source host c1 generated a new update - 10
+
+36097.9000 : Host c0 sent update 10 to host c56
+36101.9000 : Host c56 ACCEPTED update 9 -> 10 from host c0
+36116.1000 : Host c4 sent update 10 to host c30
+36120.1000 : Host c30 ACCEPTED update 9 -> 10 from host c4
+36145.5000 : Host c4 sent update 10 to host c100
+36149.5000 : Host c100 ACCEPTED update 7 -> 10 from host c4
+36173.8000 : Host c4 sent update 10 to host c64
+36177.8000 : Host c64 ACCEPTED update 8 -> 10 from host c4
+36203.1000 : Host c4 sent update 10 to host c30
+36207.1000 : Host c30 REJECTED update 10 -> 10 from host c4
+36235.3000 : Host c4 sent update 10 to host c36
+36237.7000 : Host c4 sent update 10 to host c39
+36239.3000 : Host c36 ACCEPTED update 8 -> 10 from host c4
+36243.3000 : Host c39 ACCEPTED update 8 -> 10 from host c4
+36350.5000 : Host c2 sent update 10 to host c36
+36352.5000 : Host c2 sent update 10 to host c39
+36354.5000 : Host c36 REJECTED update 10 -> 10 from host c2
+36358.5000 : Host c39 REJECTED update 10 -> 10 from host c2
+36518.2000 : Host c0 sent update 10 to host c75
+36522.2000 : Host c75 ACCEPTED update 9 -> 10 from host c0
+36605.4000 : Host c1 sent update 10 to host c97
+36608.7000 : Host c0 sent update 10 to host c6
+36609.4000 : Host c97 ACCEPTED update 9 -> 10 from host c1
+36612.7000 : Host c6 ACCEPTED update 9 -> 10 from host c0
+36645.7000 : Host c1 sent update 10 to host c65
+36649.7000 : Host c65 ACCEPTED update 9 -> 10 from host c1
+36659.6000 : Host c1 sent update 10 to host c77
+36662.1000 : Host c0 sent update 10 to host c9
+36663.6000 : Host c77 ACCEPTED update 8 -> 10 from host c1
+36666.1000 : Host c9 ACCEPTED update 9 -> 10 from host c0
+36686.3000 : Host c0 sent update 10 to host c60
+36690.3000 : Host c60 ACCEPTED update 9 -> 10 from host c0
+36835.8000 : Host c3 sent update 10 to host c82
+36839.8000 : Host c82 ACCEPTED update 9 -> 10 from host c3
+36880.3000 : Host c2 sent update 10 to host c4
+36880.3000 : Host c4 sent update 10 to host c2
+36884.3000 : Host c4 REJECTED update 10 -> 10 from host c2
+36887.7000 : Host c1 sent update 10 to host c13
+36891.7000 : Host c13 ACCEPTED update 7 -> 10 from host c1
+36941.0000 : Host c1 sent update 10 to host c43
+36945.0000 : Host c43 ACCEPTED update 8 -> 10 from host c1
+36977.4000 : Host c1 sent update 10 to host c15
+36981.4000 : Host c15 ACCEPTED update 9 -> 10 from host c1
+37072.3000 : Host c1 sent update 10 to host c52
+37076.3000 : Host c52 ACCEPTED update 7 -> 10 from host c1
+37120.3000 : Host c0 sent update 10 to host c44
+37124.3000 : Host c44 ACCEPTED update 7 -> 10 from host c0
+37157.0000 : Host c1 sent update 10 to host c21
+37161.0000 : Host c21 ACCEPTED update 9 -> 10 from host c1
+37242.7000 : Host c3 sent update 10 to host c79
+37246.7000 : Host c79 ACCEPTED update 8 -> 10 from host c3
+37247.3000 : Host c4 sent update 10 to host c85
+37251.3000 : Host c85 ACCEPTED update 4 -> 10 from host c4
+37274.3000 : Host c1 sent update 10 to host c84
+37278.3000 : Host c84 ACCEPTED update 7 -> 10 from host c1
+37302.9000 : Host c3 sent update 10 to host c45
+37306.9000 : Host c45 ACCEPTED update 7 -> 10 from host c3
+37380.6000 : Host c2 sent update 10 to host c71
+37384.6000 : Host c71 ACCEPTED update 8 -> 10 from host c2
+37385.1000 : Host c0 sent update 10 to host c61
+37389.1000 : Host c61 ACCEPTED update 9 -> 10 from host c0
+37437.0000 : Host c3 sent update 10 to host c8
+37441.0000 : Host c8 ACCEPTED update 8 -> 10 from host c3
+37526.6000 : Host c1 sent update 10 to host c55
+37530.6000 : Host c55 ACCEPTED update 8 -> 10 from host c1
+37585.7000 : Host c4 sent update 10 to host c27
+37589.7000 : Host c27 ACCEPTED update 4 -> 10 from host c4
+37608.2000 : Host c0 sent update 10 to host c91
+37612.2000 : Host c91 ACCEPTED update 9 -> 10 from host c0
+37635.6000 : Host c3 sent update 10 to host c70
+37639.6000 : Host c70 ACCEPTED update 5 -> 10 from host c3
+37774.8000 : Host c1 sent update 10 to host c82
+37778.8000 : Host c82 REJECTED update 10 -> 10 from host c1
+37792.1000 : Host c1 sent update 10 to host c24
+37796.1000 : Host c24 ACCEPTED update 8 -> 10 from host c1
+37796.4000 : Host c0 sent update 10 to host c41
+37800.4000 : Host c41 ACCEPTED update 8 -> 10 from host c0
+37801.9000 : Host c0 sent update 10 to host c22
+37805.9000 : Host c22 ACCEPTED update 6 -> 10 from host c0
+37819.3000 : Host c2 sent update 10 to host c27
+37823.3000 : Host c27 REJECTED update 10 -> 10 from host c2
+37926.5000 : Host c3 sent update 10 to host c62
+37930.5000 : Host c62 ACCEPTED update 7 -> 10 from host c3
+38213.6000 : Host c3 sent update 10 to host c82
+38217.6000 : Host c82 REJECTED update 10 -> 10 from host c3
+38259.0000 : Host c1 sent update 10 to host c76
+38299.8000 : Host c4 sent update 10 to host c73
+38303.8000 : Host c73 ACCEPTED update 9 -> 10 from host c4
+38328.6000 : Host c1 sent update 10 to host c76
+38332.6000 : Host c76 ACCEPTED update 7 -> 10 from host c1
+38336.6000 : Host c76 REJECTED update 10 -> 10 from host c1
+38518.7000 : Host c1 sent update 10 to host c3
+38518.7000 : Host c3 sent update 10 to host c1
+38522.7000 : Host c3 REJECTED update 10 -> 10 from host c1
+38526.7000 : Host c1 REJECTED update 10 -> 10 from host c3
+38569.0000 : Host c3 sent update 10 to host c92
+38573.0000 : Host c92 ACCEPTED update 6 -> 10 from host c3
+38660.3000 : Host c4 sent update 10 to host c7
+38662.2000 : Host c3 sent update 10 to host c94
+38664.3000 : Host c7 ACCEPTED update 9 -> 10 from host c4
+38666.2000 : Host c94 ACCEPTED update 9 -> 10 from host c3
+38876.1000 : Host c0 sent update 10 to host c44
+38880.1000 : Host c44 REJECTED update 10 -> 10 from host c0
+38993.1000 : Host c0 sent update 10 to host c31
+38997.1000 : Host c31 ACCEPTED update 8 -> 10 from host c0
+39058.5000 : Host c3 sent update 10 to host c100
+39062.5000 : Host c100 REJECTED update 10 -> 10 from host c3
+39252.3000 : Host c2 sent update 10 to host c43
+39256.3000 : Host c43 REJECTED update 10 -> 10 from host c2
+39291.4000 : Host c3 sent update 10 to host c17
+39295.4000 : Host c17 ACCEPTED update 9 -> 10 from host c3
+39324.1000 : Host c4 sent update 10 to host c43
+39328.1000 : Host c43 REJECTED update 10 -> 10 from host c4
+39414.4000 : Host c1 sent update 10 to host c80
+39418.4000 : Host c80 ACCEPTED update 8 -> 10 from host c1
+39435.8000 : Host c1 sent update 10 to host c24
+39439.8000 : Host c24 REJECTED update 10 -> 10 from host c1
+39600.8000 : Active source host c1 generated a new update - 11
+
+39600.8000 : Active source host c3 generated a new update - 11
+
+39600.8000 : Active source host c0 generated a new update - 11
+
+39600.8000 : Active source host c2 generated a new update - 11
+
+39600.8000 : Active source host c4 generated a new update - 11
+
+39706.9000 : Host c2 sent update 11 to host c5
+39710.9000 : Host c5 ACCEPTED update 9 -> 11 from host c2
+39714.2000 : Host c1 sent update 11 to host c94
+39718.2000 : Host c94 ACCEPTED update 10 -> 11 from host c1
+39748.4000 : Host c4 sent update 11 to host c66
+39752.4000 : Host c66 ACCEPTED update 0 -> 11 from host c4
+39791.2000 : Host c1 sent update 11 to host c78
+39795.2000 : Host c78 ACCEPTED update 8 -> 11 from host c1
+39818.7000 : Host c3 sent update 11 to host c93
+39822.7000 : Host c93 ACCEPTED update 5 -> 11 from host c3
+39831.9000 : Host c4 sent update 11 to host c87
+39835.9000 : Host c87 ACCEPTED update 9 -> 11 from host c4
+39863.6000 : Host c2 sent update 11 to host c44
+39866.1000 : Host c4 sent update 11 to host c56
+39867.6000 : Host c44 ACCEPTED update 10 -> 11 from host c2
+39870.1000 : Host c56 ACCEPTED update 10 -> 11 from host c4
+39970.8000 : Host c3 sent update 11 to host c72
+39974.8000 : Host c72 ACCEPTED update 8 -> 11 from host c3
+40088.6000 : Host c4 sent update 11 to host c60
+40092.6000 : Host c60 ACCEPTED update 10 -> 11 from host c4
+40172.3000 : Host c1 sent update 11 to host c48
+40176.3000 : Host c48 ACCEPTED update 9 -> 11 from host c1
+40186.4000 : Host c4 sent update 11 to host c14
+40190.4000 : Host c14 ACCEPTED update 8 -> 11 from host c4
+40285.3000 : Host c2 sent update 11 to host c103
+40289.3000 : Host c103 ACCEPTED update 8 -> 11 from host c2
+40328.5000 : Host c4 sent update 11 to host c31
+40332.5000 : Host c31 ACCEPTED update 10 -> 11 from host c4
+40344.2000 : Host c4 sent update 11 to host c83
+40348.2000 : Host c83 ACCEPTED update 3 -> 11 from host c4
+40354.1000 : Host c4 sent update 11 to host c19
+40358.1000 : Host c19 ACCEPTED update 8 -> 11 from host c4
+40365.6000 : Host c2 sent update 11 to host c73
+40369.6000 : Host c73 ACCEPTED update 10 -> 11 from host c2
+40402.7000 : Host c1 sent update 11 to host c20
+40406.7000 : Host c20 ACCEPTED update 7 -> 11 from host c1
+40448.8000 : Host c2 sent update 11 to host c37
+40452.8000 : Host c37 ACCEPTED update 9 -> 11 from host c2
+40476.5000 : Host c0 sent update 11 to host c8
+40480.5000 : Host c8 ACCEPTED update 10 -> 11 from host c0
+40492.3000 : Host c4 sent update 11 to host c0
+40492.3000 : Host c0 sent update 11 to host c4
+40495.8000 : Host c3 sent update 11 to host c22
+40496.3000 : Host c0 REJECTED update 11 -> 11 from host c4
+40499.8000 : Host c22 ACCEPTED update 10 -> 11 from host c3
+40602.4000 : Host c0 sent update 11 to host c29
+40606.4000 : Host c29 ACCEPTED update 5 -> 11 from host c0
+40628.1000 : Host c1 sent update 11 to host c100
+40632.1000 : Host c100 ACCEPTED update 10 -> 11 from host c1
+40694.2000 : Host c0 sent update 11 to host c98
+40698.2000 : Host c98 ACCEPTED update 8 -> 11 from host c0
+40807.3000 : Host c0 sent update 11 to host c32
+40811.3000 : Host c32 ACCEPTED update 9 -> 11 from host c0
+40898.1000 : Host c1 sent update 11 to host c95
+40902.1000 : Host c95 ACCEPTED update 9 -> 11 from host c1
+40922.3000 : Host c2 sent update 11 to host c80
+40926.3000 : Host c80 ACCEPTED update 10 -> 11 from host c2
+40965.9000 : Host c1 sent update 11 to host c57
+40969.9000 : Host c57 ACCEPTED update 9 -> 11 from host c1
+40988.7000 : Host c1 sent update 11 to host c17
+40992.7000 : Host c17 ACCEPTED update 10 -> 11 from host c1
+41011.9000 : Host c1 sent update 11 to host c2
+41011.9000 : Host c2 sent update 11 to host c1
+41015.9000 : Host c2 REJECTED update 11 -> 11 from host c1
+41024.8000 : Host c2 sent update 11 to host c1
+41024.8000 : Host c1 sent update 11 to host c2
+41028.8000 : Host c1 REJECTED update 11 -> 11 from host c2
+41032.8000 : Host c1 REJECTED update 11 -> 11 from host c2
+41036.8000 : Host c2 REJECTED update 11 -> 11 from host c1
+41051.5000 : Host c3 sent update 11 to host c89
+41055.5000 : Host c89 ACCEPTED update 5 -> 11 from host c3
+41056.0000 : Host c1 sent update 11 to host c52
+41058.6000 : Host c2 sent update 11 to host c52
+41060.0000 : Host c52 ACCEPTED update 10 -> 11 from host c1
+41064.0000 : Host c52 REJECTED update 11 -> 11 from host c2
+41100.1000 : Host c1 sent update 11 to host c11
+41100.9000 : Host c2 sent update 11 to host c11
+41104.1000 : Host c11 ACCEPTED update 9 -> 11 from host c1
+41108.1000 : Host c11 REJECTED update 11 -> 11 from host c2
+41129.6000 : Host c3 sent update 11 to host c21
+41133.6000 : Host c21 ACCEPTED update 10 -> 11 from host c3
+41150.7000 : Host c0 sent update 11 to host c95
+41154.7000 : Host c95 REJECTED update 11 -> 11 from host c0
+41266.4000 : Host c4 sent update 11 to host c29
+41270.4000 : Host c29 REJECTED update 11 -> 11 from host c4
+41313.2000 : Host c3 sent update 11 to host c23
+41317.2000 : Host c23 ACCEPTED update 5 -> 11 from host c3
+41437.3000 : Host c0 sent update 11 to host c28
+41441.3000 : Host c28 ACCEPTED update 9 -> 11 from host c0
+41459.0000 : Host c2 sent update 11 to host c10
+41463.0000 : Host c10 ACCEPTED update 7 -> 11 from host c2
+41473.9000 : Host c1 sent update 11 to host c10
+41477.9000 : Host c10 REJECTED update 11 -> 11 from host c1
+41588.6000 : Host c3 sent update 11 to host c33
+41592.6000 : Host c33 ACCEPTED update 7 -> 11 from host c3
+41640.6000 : Host c3 sent update 11 to host c91
+41644.6000 : Host c91 ACCEPTED update 10 -> 11 from host c3
+41770.8000 : Host c4 sent update 11 to host c15
+41774.8000 : Host c15 ACCEPTED update 10 -> 11 from host c4
+41784.9000 : Host c4 sent update 11 to host c77
+41788.9000 : Host c77 ACCEPTED update 10 -> 11 from host c4
+41909.5000 : Host c4 sent update 11 to host c79
+41913.5000 : Host c79 ACCEPTED update 10 -> 11 from host c4
+41937.3000 : Host c4 sent update 11 to host c24
+41941.3000 : Host c24 ACCEPTED update 10 -> 11 from host c4
+41955.2000 : Host c2 sent update 11 to host c96
+41959.2000 : Host c96 ACCEPTED update 7 -> 11 from host c2
+42082.4000 : Host c4 sent update 11 to host c28
+42086.4000 : Host c28 REJECTED update 11 -> 11 from host c4
+42093.7000 : Host c2 sent update 11 to host c59
+42097.7000 : Host c59 ACCEPTED update 9 -> 11 from host c2
+42130.1000 : Host c3 sent update 11 to host c5
+42134.1000 : Host c5 REJECTED update 11 -> 11 from host c3
+42250.3000 : Host c2 sent update 11 to host c7
+42254.3000 : Host c7 ACCEPTED update 10 -> 11 from host c2
+42319.5000 : Host c4 sent update 11 to host c91
+42323.5000 : Host c91 REJECTED update 11 -> 11 from host c4
+42357.7000 : Host c4 sent update 11 to host c56
+42361.7000 : Host c56 REJECTED update 11 -> 11 from host c4
+42496.2000 : Host c4 sent update 11 to host c65
+42500.2000 : Host c65 ACCEPTED update 10 -> 11 from host c4
+42513.7000 : Host c4 sent update 11 to host c96
+42517.7000 : Host c96 REJECTED update 11 -> 11 from host c4
+42882.2000 : Host c4 sent update 11 to host c40
+42886.2000 : Host c40 ACCEPTED update 3 -> 11 from host c4
+42894.3000 : Host c1 sent update 11 to host c17
+42898.3000 : Host c17 REJECTED update 11 -> 11 from host c1
+42898.6000 : Host c1 sent update 11 to host c80
+42902.6000 : Host c80 REJECTED update 11 -> 11 from host c1
+42934.7000 : Host c0 sent update 11 to host c59
+42938.7000 : Host c59 REJECTED update 11 -> 11 from host c0
+42994.3000 : Host c4 sent update 11 to host c73
+42998.3000 : Host c73 REJECTED update 11 -> 11 from host c4
+43200.9000 : Active source host c1 generated a new update - 12
+
+43200.9000 : Active source host c2 generated a new update - 12
+
+43200.9000 : Active source host c4 generated a new update - 12
+
+43200.9000 : Active source host c0 generated a new update - 12
+
+43200.9000 : Active source host c3 generated a new update - 12
+
+
+
+Number of duplicates received per Node
+Host : Number of duplicates
+0 : 4
+1 : 7
+2 : 3
+3 : 4
+4 : 2
+5 : 1
+6 : 0
+7 : 2
+8 : 0
+9 : 0
+10 : 1
+11 : 2
+12 : 2
+13 : 1
+14 : 2
+15 : 4
+16 : 1
+17 : 6
+18 : 0
+19 : 2
+20 : 4
+21 : 3
+22 : 1
+23 : 0
+24 : 4
+25 : 1
+26 : 2
+27 : 4
+28 : 1
+29 : 2
+30 : 1
+31 : 2
+32 : 2
+33 : 1
+34 : 1
+35 : 2
+36 : 4
+37 : 0
+38 : 1
+39 : 3
+40 : 0
+41 : 0
+42 : 1
+43 : 2
+44 : 1
+45 : 4
+46 : 2
+47 : 0
+48 : 2
+49 : 1
+50 : 1
+51 : 1
+52 : 1
+53 : 1
+54 : 0
+55 : 0
+56 : 1
+57 : 1
+58 : 2
+59 : 2
+60 : 2
+61 : 1
+62 : 1
+63 : 3
+64 : 2
+65 : 0
+66 : 2
+67 : 1
+68 : 3
+69 : 0
+70 : 2
+71 : 1
+72 : 5
+73 : 1
+74 : 0
+75 : 1
+76 : 2
+77 : 4
+78 : 2
+79 : 3
+80 : 1
+81 : 1
+82 : 3
+83 : 3
+84 : 4
+85 : 1
+86 : 2
+87 : 0
+88 : 0
+89 : 3
+90 : 0
+91 : 3
+92 : 1
+93 : 1
+94 : 3
+95 : 3
+96 : 1
+97 : 4
+98 : 0
+99 : 2
+100 : 2
+101 : 2
+102 : 1
+103 : 3
+104 : 0
+
+
+Overall stats for scenario test_scenario
+Total updates sent: 665
+Total updates received: 653
+Total updates rejected: 186
+
+Users with up to date content at each interval
+Interval : Number of Users
+0 : 105
+1 : 51
+2 : 45
+3 : 38
+4 : 50
+5 : 45
+6 : 52
+7 : 43
+8 : 52
+9 : 46
+10 : 48
+11 : 52

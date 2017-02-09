@@ -12,6 +12,7 @@ import java.util.Map;
 import core.DTNHost;
 import core.Message;
 import core.MessageListener;
+import core.Settings;
 
 /**
  * Report for generating different kind of total statistics about message
@@ -22,7 +23,11 @@ import core.MessageListener;
  * double values and zero for integer median(s).
  */
 public class MessageStatsReport extends Report implements MessageListener {
-	private Map<String, Double> creationTimes;
+
+	public static final String MSG_TTL_S = "msgTtl";
+
+	//private Map<String, Double> creationTimes;
+	//private Map<String, Message> creationTimes;
 	private List<Double> latencies;
 	private List<Integer> hopCounts;
 	private List<Double> msgBufferTime;
@@ -38,6 +43,8 @@ public class MessageStatsReport extends Report implements MessageListener {
 	private int nrofResponseDelivered;
 	private int nrofDelivered;
 
+	private double msgTtl;
+
 	/**
 	 * Constructor.
 	 */
@@ -48,7 +55,8 @@ public class MessageStatsReport extends Report implements MessageListener {
 	@Override
 	protected void init() {
 		super.init();
-		this.creationTimes = new HashMap<String, Double>();
+		//this.creationTimes = new HashMap<String, Double>();
+		//this.creationTimes = new HashMap<String, Message>();
 		this.latencies = new ArrayList<Double>();
 		this.msgBufferTime = new ArrayList<Double>();
 		this.hopCounts = new ArrayList<Integer>();
@@ -63,6 +71,11 @@ public class MessageStatsReport extends Report implements MessageListener {
 		this.nrofResponseReqCreated = 0;
 		this.nrofResponseDelivered = 0;
 		this.nrofDelivered = 0;
+
+		Settings s = getSettings();
+		s.setNameSpace("Group");
+		this.msgTtl = (double)s.getInt(MSG_TTL_S)*60;
+		s.restoreNameSpace();
 	}
 
 
@@ -99,8 +112,10 @@ public class MessageStatsReport extends Report implements MessageListener {
 
 		this.nrofRelayed++;
 		if (finalTarget) {
+			//double time = this.creationTimes.remove(m.getId());
+			//System.out.println(m.getId()+" "+time);
 			this.latencies.add(getSimTime() -
-				this.creationTimes.get(m.getId()) );
+				m.getCreationTime() ); 
 			this.nrofDelivered++;
 			this.hopCounts.add(m.getHops().size() - 1);
 
@@ -108,6 +123,9 @@ public class MessageStatsReport extends Report implements MessageListener {
 				this.rtt.add(getSimTime() -	m.getRequest().getCreationTime());
 				this.nrofResponseDelivered++;
 			}
+
+			//if ((getSimTime() - m.getCreationTime()) > msgTtl*2)
+			//	creationTimes.remove(m.getId());
 		}
 	}
 
@@ -117,8 +135,8 @@ public class MessageStatsReport extends Report implements MessageListener {
 			addWarmupID(m.getId());
 			return;
 		}
-
-		this.creationTimes.put(m.getId(), getSimTime());
+		//System.out.println(m.getId()+" "+getSimTime());
+		//this.creationTimes.put(m.getId(), getSimTime());
 		this.nrofCreated++;
 		if (m.getResponseSize() > 0) {
 			this.nrofResponseReqCreated++;

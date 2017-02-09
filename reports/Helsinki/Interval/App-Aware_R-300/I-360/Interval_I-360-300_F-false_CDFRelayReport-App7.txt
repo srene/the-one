@@ -1,0 +1,14 @@
+Reporting for Application App7
+Sample Interval : % of Relay Msgs
+
+0 0.0000
+1 14.0000
+2 13.0000
+3 12.0000
+4 11.0000
+5 11.0000
+6 10.0000
+7 10.0000
+8 10.0000
+9 9.0000
+10 9.0000

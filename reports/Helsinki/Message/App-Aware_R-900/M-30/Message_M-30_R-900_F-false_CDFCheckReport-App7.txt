@@ -1,0 +1,14 @@
+Reporting for Application App7
+Check Interval : Average Cumulative Success Rate
+
+0 0.0000
+1 0.0333
+2 0.1020
+3 0.1750
+4 0.2477
+5 0.3065
+6 0.3533
+7 0.3906
+8 0.4195
+9 0.4467
+10 0.4640

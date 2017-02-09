@@ -1,0 +1,30 @@
+# A configuration which adds the test application an app listener for
+# reporting and sets the appropriate conditions
+
+Scenario.name = test_scenario
+
+# Define new application
+testApp.type = TestApplication
+testApp.size = 1M
+testApp.source = 0,5
+testApp.interval = 3600
+testApp.nrofHosts = 105
+testApp.time = 1200.0
+
+# Set application for all nodes
+Group.nrofApplications = 1
+Group.application1 = testApp
+
+# Add Reporter for application
+Report.nrofReports = 7
+Report.report6 = TestAppReporter
+Report.report7 = TestAppChecks
+Report.interval = 3600
+Report.endTime = 43200
+Report.nrofHosts = 105
+Report.reportDir = reports/test3
+
+# Set remaining simulation configurations
+Group.router = DDRouterExtension
+Events.nrof = 0
+

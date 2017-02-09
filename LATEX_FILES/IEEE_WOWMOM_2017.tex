@@ -1,0 +1,116 @@
+\documentclass[conference]{IEEEtran}
+
+%PACKAGES
+%\usepackage{courier}
+%\usepackage[dvips]{graphicx}
+\usepackage[pdftex]{graphicx}
+\usepackage[usenames]{color}
+
+\usepackage{mathptmx}
+\DeclareMathAlphabet{\mathcal}{OMS}{cmsy}{m}{n}
+
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage[tight,footnotesize]{subfigure}
+% http://www.ctan.org/tex-archive/obsolete/macros/latex/contrib/subfigure/
+\usepackage[geometry]{ifsym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{bbm}
+\usepackage{amsthm}
+\usepackage{verbatim}
+\usepackage{soul}
+\usepackage{todonotes}
+
+%\usepackage{colortbl}
+%\usepackage{algorithmic}
+%\usepackage{algorithm}
+
+%\usepackage{ntheorem}
+\usepackage{soul}
+\usepackage{multirow}
+%\usepackage{txfonts}
+
+%% Mathematical macros
+\renewcommand{\P}{\mathrm{P}\,}
+\newcommand{\pr}[1]{\mathbbm{P}\! \left(#1\right)}
+\newcommand{\cpr}[2]{\P\! \left[\left.#1\,\right|#2\right]}
+\newcommand{\E}{\mathrm{E}\,}
+\newcommand{\mean}[1]{\mathbbm{E}\!\left\{#1\right\}}
+\newcommand{\cmean}[2]{\mathrm{E}\!\left[\left.#1\,\right|#2\right]}
+\newcommand{\var}[1]{\mathrm{Var}\!\left(#1\right)}
+\newcommand{\cvar}[2]{\mathrm{Var}\!\left[\left.#1\,\right|#2\right]}
+\newcommand{\cov}[1]{\mathrm{Cov}\!\left(#1\right)}
+\newcommand{\cCov}[2]{\mathrm{Cov}\!\left[\left.#1\,\right|#2\right]}
+\newcommand{\set}[1]{\left\{{#1}\right\}}
+\newcommand{\eset}[2]{\left\{{#1}:\ {#2}\right\}}
+\newcommand{\indic}[1]{\mathbbm{1}_{\{#1\}}}
+\newcommand{\Nat}{\mathbb{N}}
+\renewcommand{\Re}{\mathbb{R}}
+\newcommand{\D}{{\,\mathrm{d}}}
+\newcommand{\dx}[1]{\,\mathrm{d}#1}
+\newcommand{\argmin}{\arg\min}
+\newcommand{\argmax}{\arg\max}
+\renewcommand{\vec}[1]{\mbox{\boldmath$#1$}}
+
+\newcommand{\ie}{{\em i.e.,\/ }}
+\newcommand{\eg}{{\em e.g.,\/ }}
+\newcommand{\etc}{{\em etc.\/}}
+\newcommand{\etal}{{\em et al.\/}}
+
+\newcommand{\vect}[1]{\boldsymbol{#1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\renewcommand{\baselinestretch}{0.9905}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand*{\arial}[1]{{\small \textsf{#1}}}
+
+\newtheorem{theorem}{\textbf{THEOREM}}[]
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+
+\title{D2D application-aware Content Delivery Networking}
+
+%\author{\IEEEauthorblockN{Onur Ascigil\IEEEauthorrefmark{1}, Vasilis Sourlas\IEEEauthorrefmark{1}, Ioannis Psaras\IEEEauthorrefmark{1}, and George Pavlou\IEEEauthorrefmark{1}} \\ \vspace{-0.2in}
+%\IEEEauthorblockA{\IEEEauthorrefmark{1}Department of Electronic and Electrical Engineering, University College London, UK.\\
+%Email:  \{o.ascigil, v.sourlas, i.psaras, g.pavlou\}@ucl.ac.uk}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\IEEEoverridecommandlockouts
+%\IEEEpubid{\makebox[\columnwidth]{978-1-4673-9882-4/16/$31.00~
+%\copyright2016 IEEE \hfill} \hspace{\columnsep}\makebox[\columnwidth]{ }}
+%\IEEEoverridecommandlockouts\IEEEpubid{\makebox[\columnwidth]{978-1-4673-9882-4/16/\$31.00~\copyright{}2016 IEEE \hfill} \hspace{\columnsep}\makebox[\columnwidth]{ }}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\maketitle
+\begin{abstract}
+Abstract...
+\end{abstract}
+
+
+\begin{IEEEkeywords}
+Keywords
+\end{IEEEkeywords}
+
+\input{1-Introduction}
+\input{2-RelatedWork}
+\input{3-Architecture}
+\input{4-Evaluation}
+\input{5-Conclusions}
+
+
+\section*{Acknowledgments}
+%V. Sourlas work is supported by the European Commission through the FP7-PEOPLE-IEF INTENT project, Grant Agreement no. 628360. The work has also been supported by the EPSRC grant no. EP/K019589/1 (the COMIT Project)  and the EU initiative under EC 2020 Grant Agreement no. 523033 (the UMOBILE project).
+
+%EU initiative under EC 2020 Grant
+%Agreement no. 523033 (the UMOBILE project).
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,referencesWoWMoM}
+
+
+\end{document}

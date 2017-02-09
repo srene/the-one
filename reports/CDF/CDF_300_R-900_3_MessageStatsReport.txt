@@ -1,0 +1,20 @@
+Message stats for scenario CDF_300_R-900_3
+sim_time: 43210.1000
+created: 1011
+started: 1011
+relayed: 992
+aborted: 19
+dropped: 1009
+removed: 0
+delivered: 992
+delivery_prob: 0.9812
+response_prob: 0.0000
+overhead_ratio: 0.0000
+latency_avg: 4.1017
+latency_med: 4.0000
+hopcount_avg: 1.0000
+hopcount_med: 1
+buffertime_avg: 269.8735
+buffertime_med: 269.7000
+rtt_avg: NaN
+rtt_med: NaN

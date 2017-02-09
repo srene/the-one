@@ -82,6 +82,11 @@ public class SimScenario implements Serializable {
 	/** package where to look for application classes */
 	private static final String APP_PACKAGE = "applications.";
 
+	// (D.Shtefan) Setting for zipf exponent 
+	private static final String ZIPF = "zipf";
+	// (D.Shtefan) Setting initialisation mode
+	private static final String MODE = "mode";
+
 	/** The world instance */
 	private World world;
 	/** List of hosts in this simulation */
@@ -106,6 +111,11 @@ public class SimScenario implements Serializable {
 	private boolean simulateConnections;
 	/** Map used for host movement (if any) */
 	private SimMap simMap;
+
+	// (D.Shtefan) The zipf exponent 
+	private double exponent;
+	// (D.Shtefan) The mode of host initialiaztion
+	private String mode;
 
 	/** Global connection event listeners */
 	private List<ConnectionListener> connectionListeners;
@@ -133,6 +143,8 @@ public class SimScenario implements Serializable {
 	protected SimScenario() {
 		Settings s = new Settings(SCENARIO_NS);
 		nrofGroups = s.getInt(NROF_GROUPS_S);
+		// (D.Shtefan) Initialise mode setting
+		mode = s.getSetting(MODE);
 
 		this.name = s.valueFillString(s.getSetting(NAME_S));
 		this.endTime = s.getDouble(END_TIME_S);
@@ -318,7 +330,21 @@ public class SimScenario implements Serializable {
 	/**
 	 * Creates hosts for the scenario
 	 */
+	// (D.Shtefan) Modified method to initialise hosts with 
+	// a collection of applications according to a randomized Zipf 
+	// distribution.
 	protected void createHosts() {
+		switch (mode.toLowerCase()) {
+			case "default":
+				this.defaultMode();
+				break;
+			case "zipf":
+				this.zipfMode();
+				break;
+		}
+	}
+
+	public void defaultMode(){
 		this.hosts = new ArrayList<DTNHost>();
 
 		for (int i=1; i<=nrofGroups; i++) {
@@ -401,6 +427,111 @@ public class SimScenario implements Serializable {
 				hosts.add(host);
 			}
 		}
+	}
+
+	public void zipfMode(){
+		System.out.println("Initialiazing hosts...\n");
+		this.hosts = new ArrayList<DTNHost>();
+		Settings s = new Settings(GROUP_NS);
+		int appCount;
+		
+		// setup applications
+		appCount = s.getInt(APPCOUNT_S);
+		// Get name of the application for this group
+		String appname = s.getSetting(GAPPNAME_S);
+		// Get settings for the given application
+		Settings t = new Settings(appname);
+		Application[] protoApp = new Application[appCount];
+		// Get Zipf value and create zipf object
+		if (s.contains(ZIPF))
+			exponent = s.getDouble(ZIPF);
+		else 
+			exponent = 1.0;
+		Zipf zipf = new Zipf(appCount, false, exponent);
+		for (int j=0; j<appCount; j++) {
+			protoApp[j] = null;
+			try {				
+				// Load an instance of the application
+				protoApp[j] = (Application)t.createIntializedObject(
+						APP_PACKAGE + t.getSetting(APPTYPE_S));
+				// Set application listeners
+				protoApp[j].setAppListeners(this.appListeners);
+				// Set the proto application in proto router
+				//mRouterProto.setApplication(protoApp);
+			
+			} catch (SettingsError se) {
+				// Failed to create an application for this group
+				System.err.println("Failed to setup an application: " + se);
+				System.err.println("Caught at " + se.getStackTrace()[0]);
+				System.exit(-1);
+			}
+		}
+		
+		for (int i=1; i<=nrofGroups; i++) {
+			List<NetworkInterface> interfaces =
+				new ArrayList<NetworkInterface>();
+			s.setNameSpace(GROUP_NS+i);
+			s.setSecondaryNamespace(GROUP_NS);
+			String gid = s.getSetting(GROUP_ID_S);
+			int nrofHosts = s.getInt(NROF_HOSTS_S);
+			int nrofInterfaces = s.getInt(NROF_INTERF_S);
+			
+			// creates prototypes of MessageRouter and MovementModel
+			MovementModel mmProto =
+				(MovementModel)s.createIntializedObject(MM_PACKAGE +
+						s.getSetting(MOVEMENT_MODEL_S));
+			
+
+			/* checks that these values are positive (throws Error if not) */
+			s.ensurePositiveValue(nrofHosts, NROF_HOSTS_S);
+			s.ensurePositiveValue(nrofInterfaces, NROF_INTERF_S);
+
+			// setup interfaces
+			for (int j=1;j<=nrofInterfaces;j++) {
+				String intName = s.getSetting(INTERFACENAME_S + j);
+				Settings intSettings = new Settings(intName);
+				NetworkInterface iface =
+					(NetworkInterface)intSettings.createIntializedObject(
+							INTTYPE_PACKAGE +intSettings.getSetting(INTTYPE_S));
+				iface.setClisteners(connectionListeners);
+				iface.setGroupSettings(s);
+				interfaces.add(iface);
+			}
+
+			
+			if (mmProto instanceof MapBasedMovement) {
+				this.simMap = ((MapBasedMovement)mmProto).getMap();
+			}
+
+			// creates hosts of ith group
+			for (int j=0; j<nrofHosts; j++) {
+				System.out.print("\n"+gid+j+" : ");
+				ModuleCommunicationBus comBus = new ModuleCommunicationBus();
+
+				MessageRouter mRouterProto =
+				(MessageRouter)s.createIntializedObject(ROUTING_PACKAGE +
+						s.getSetting(ROUTER_S));
+				// Get boolean table of valid apps from zipf distribution for this host
+				// (NOTE: consider using Bloom Filter in future)
+				boolean[] zipfTable = zipf.fillBoolTable();
+				// If Hosts in this group are sources, add all applications
+				// otherwise add applications via zipf table filter
+				for (int k=0; k<appCount; k++){
+					if ((zipfTable[k]) || (gid.equals("s"))){
+						mRouterProto.addApplication(protoApp[k]);
+						//System.out.print((k+1)+", ");
+						System.out.print(protoApp[k].getAppID()+", ");
+					}
+				}
+
+				// prototypes are given to new DTNHost which replicates
+				// new instances of movement model and message router
+				DTNHost host = new DTNHost(this.messageListeners,
+						this.movementListeners,	gid, interfaces, comBus,
+						mmProto, mRouterProto);
+				hosts.add(host);
+			}
+		}		
 	}
 
 	/**

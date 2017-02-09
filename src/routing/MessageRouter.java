@@ -23,6 +23,10 @@ import core.SimError;
 import routing.util.RoutingInfo;
 import util.Tuple;
 
+//import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Map;
+
 /**
  * Superclass for message routers.
  */
@@ -51,11 +55,15 @@ public abstract class MessageRouter {
 	public static final int Q_MODE_RANDOM = 1;
 	/** Setting value for FIFO queue mode */
 	public static final int Q_MODE_FIFO = 2;
+	// 4/7/16 (D.Shtefan) Setting value for FIFO using msg unique ID
+	public static final int Q_MODE_UNIQUEID = 3;
 
 	/** Setting string for random queue mode */
 	public static final String STR_Q_MODE_RANDOM = "RANDOM";
 	/** Setting string for FIFO queue mode */
 	public static final String STR_Q_MODE_FIFO = "FIFO";
+	// 4/7/16 (D.Shtefan) Setting string for FIFO using msg unique ID
+	public static final String STR_Q_MODE_UNIQUEID = "FIFO_ID";
 
 	/* Return values when asking to start a transmission:
 	 * RCV_OK (0) means that the host accepts the message and transfer started,
@@ -89,6 +97,7 @@ public abstract class MessageRouter {
 	private HashMap<String, Message> messages;
 	/** The messages this router has received as the final recipient */
 	private HashMap<String, Message> deliveredMessages;
+	//private HashSet<String> newDeliveredMessages;
 	/** The messages that Applications on this router have blacklisted */
 	private HashMap<String, Object> blacklistedMessages;
 	/** Host where this router belongs to */
@@ -130,9 +139,14 @@ public abstract class MessageRouter {
 				this.sendQueueMode = Q_MODE_FIFO;
 			} else if (mode.trim().toUpperCase().equals(STR_Q_MODE_RANDOM)){
 				this.sendQueueMode = Q_MODE_RANDOM;
+			// 4/7/16 (D.Shtefan) Initialise new Queue mode setting
+			} else if (mode.trim().toUpperCase().equals(STR_Q_MODE_UNIQUEID)){
+				this.sendQueueMode = Q_MODE_UNIQUEID;
 			} else {
 				this.sendQueueMode = s.getInt(SEND_QUEUE_MODE_S);
-				if (sendQueueMode < 1 || sendQueueMode > 2) {
+				//if (sendQueueMode < 1 || sendQueueMode > 2) {
+				// 4/7/16 (D.Shtefan) Increased range for valid settings input
+				if (sendQueueMode < 1 || sendQueueMode > 3) {
 					throw new SettingsError("Invalid value for " +
 							s.getFullPropertyName(SEND_QUEUE_MODE_S));
 				}
@@ -154,6 +168,7 @@ public abstract class MessageRouter {
 		this.incomingMessages = new HashMap<String, Message>();
 		this.messages = new HashMap<String, Message>();
 		this.deliveredMessages = new HashMap<String, Message>();
+		//this.newDeliveredMessages = new HashSet<String>();
 		this.blacklistedMessages = new HashMap<String, Object>();
 		this.mListeners = mListeners;
 		this.host = host;
@@ -187,6 +202,18 @@ public abstract class MessageRouter {
 				app.update(this.host);
 			}
 		}
+
+		Iterator<Map.Entry<String, Message>> it = deliveredMessages.entrySet().iterator();
+		while (it.hasNext()){
+			Map.Entry<String, Message> entry = it.next();
+			if ((SimClock.getTime()-entry.getValue().getCreationTime())>(msgTtl*120))
+				it.remove();
+		}
+
+		/*for (String id : deliveredMessages.keySet()){
+			if ((SimClock.getTime()-deliveredMessages.get(id).getCreationTime())>(msgTtl*120))
+				deliveredMessages.remove(id);
+		}*/
 	}
 
 	/**
@@ -223,6 +250,7 @@ public abstract class MessageRouter {
 	 */
 	protected boolean isDeliveredMessage(Message m) {
 		return (this.deliveredMessages.containsKey(m.getId()));
+		//return this.newDeliveredMessages.contains(m.getId());		
 	}
 
 	/**
@@ -383,7 +411,8 @@ public abstract class MessageRouter {
 			// -> put to buffer
 			addToMessages(aMessage, false);
 		} else if (isFirstDelivery) {
-			this.deliveredMessages.put(id, aMessage);
+			this.deliveredMessages.put(id, aMessage.replicate());	
+			//this.newDeliveredMessages.add(id);			
 		} else if (outgoing == null) {
 			// Blacklist messages that an app wants to drop.
 			// Otherwise the peer will just try to send it back again.
@@ -394,7 +423,6 @@ public abstract class MessageRouter {
 			ml.messageTransferred(aMessage, from, this.host,
 					isFirstDelivery);
 		}
-
 		return aMessage;
 	}
 
@@ -549,6 +577,38 @@ public abstract class MessageRouter {
 			});
 			break;
 		/* add more queue modes here */
+
+		// 4/7/16 (D.Shtefan) Added FIFO queuing by message unique ID 
+		case Q_MODE_UNIQUEID:
+			Collections.sort(list,
+					new Comparator() {
+				/** A copy of the FIFO comparison using msg unique ID*/
+				public int compare(Object o1, Object o2) {
+					int diff;
+					Message m1, m2;
+
+					if (o1 instanceof Tuple) {
+						m1 = ((Tuple<Message, Connection>)o1).getKey();
+						m2 = ((Tuple<Message, Connection>)o2).getKey();
+					}
+					else if (o1 instanceof Message) {
+						m1 = (Message)o1;
+						m2 = (Message)o2;
+					}
+					else {
+						throw new SimError("Invalid type of objects in " +
+								"the list");
+					}
+
+					diff = m1.getUniqueId() - m2.getUniqueId();
+					if (diff == 0) {
+						return 0;
+					}
+					return (diff < 0 ? -1 : 1);
+				}
+			});
+			break;
+			
 		default:
 			throw new SimError("Unknown queue mode " + sendQueueMode);
 		}
@@ -589,23 +649,23 @@ public abstract class MessageRouter {
 		RoutingInfo ri = new RoutingInfo(this);
 		RoutingInfo incoming = new RoutingInfo(this.incomingMessages.size() +
 				" incoming message(s)");
-		RoutingInfo delivered = new RoutingInfo(this.deliveredMessages.size() +
-				" delivered message(s)");
+		//RoutingInfo delivered = new RoutingInfo(this.deliveredMessages.size() +
+		//		" delivered message(s)");
 
 		RoutingInfo cons = new RoutingInfo(host.getConnections().size() +
 			" connection(s)");
 
 		ri.addMoreInfo(incoming);
-		ri.addMoreInfo(delivered);
+		//ri.addMoreInfo(delivered);
 		ri.addMoreInfo(cons);
 
 		for (Message m : this.incomingMessages.values()) {
 			incoming.addMoreInfo(new RoutingInfo(m));
 		}
 
-		for (Message m : this.deliveredMessages.values()) {
-			delivered.addMoreInfo(new RoutingInfo(m + " path:" + m.getHops()));
-		}
+		//for (Message m : this.deliveredMessages.values()) {
+		//	delivered.addMoreInfo(new RoutingInfo(m + " path:" + m.getHops()));
+		//}
 
 		for (Connection c : host.getConnections()) {
 			cons.addMoreInfo(new RoutingInfo(c));
@@ -651,6 +711,10 @@ public abstract class MessageRouter {
 		return apps;
 	}
 
+
+	//public void clearDelivered(){
+	//	this.newDeliveredMessages.clear();
+	//}
 	/**
 	 * Creates a replicate of this router. The replicate has the same
 	 * settings as this router but empty buffers and routing tables.

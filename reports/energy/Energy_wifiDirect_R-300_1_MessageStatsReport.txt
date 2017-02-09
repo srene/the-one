@@ -1,0 +1,20 @@
+Message stats for scenario Energy_wifiDirect_R-300_1
+sim_time: 43210.1000
+created: 870
+started: 856
+relayed: 856
+aborted: 0
+dropped: 855
+removed: 0
+delivered: 856
+delivery_prob: 0.9839
+response_prob: 0.0000
+overhead_ratio: 0.0000
+latency_avg: 0.1022
+latency_med: 0.1000
+hopcount_avg: 1.0000
+hopcount_med: 1
+buffertime_avg: 270.1979
+buffertime_med: 270.4000
+rtt_avg: NaN
+rtt_med: NaN

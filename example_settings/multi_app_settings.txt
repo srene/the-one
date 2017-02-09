@@ -1,0 +1,54 @@
+# A configuration which adds the test application an app listener for
+# reporting and sets the appropriate conditions
+
+Scenario.name = 5Multi_%%Group.prioritize%%_%%MovementModel.rngSeed%%
+
+# Define new application
+BBC.type = TestApplication
+BBC.appID = BBC
+BBC.size = 1M
+BBC.interval = 3600
+BBC.time = 1800.0
+BBC.source = 0,5
+BBC.nrofHosts = 105
+
+SportsApp.type = TestApplication
+SportsApp.appID = SportsApp
+SportsApp.size = 1M
+SportsApp.source = 0,5
+SportsApp.interval = 3600
+SportsApp.nrofHosts = 105
+SportsApp.time = 1200.0
+
+Weather.type = TestApplication
+Weather.appID = Weather
+Weather.size = 1M
+Weather.source = 0,5
+Weather.interval = 3600
+Weather.nrofHosts = 105
+Weather.time = 600.0
+
+# Set application for all nodes
+Group.nrofApplications = 3
+Group.application1 = BBC
+Group.application2 = SportsApp
+Group.application3 = Weather
+
+# Add Reporter for application
+Report.nrofReports = 2
+Report.reportDir = reports/test/
+Report.report1 = MessageStatsReport
+Report.report2 = MultiAppReporter
+Report.apps = BBC, SportsApp, Weather
+Report.endTime = 43200
+
+
+
+# Set remaining simulation configurations
+Group.router = DDRouterICCON
+Group.prioritize = false
+Events.nrof = 0
+Group.msgTtl = 5
+
+MovementModel.rngSeed = 1
+Group.nrofHosts = 105

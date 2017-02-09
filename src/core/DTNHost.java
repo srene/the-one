@@ -36,6 +36,9 @@ public class DTNHost implements Comparable<DTNHost> {
 	private List<NetworkInterface> net;
 	private ModuleCommunicationBus comBus;
 
+	// 13/7/16 (D.Shtefan) Added Group Id String
+	private String id;
+
 	static {
 		DTNSim.registerForReset(DTNHost.class.getCanonicalName());
 		reset();
@@ -58,6 +61,7 @@ public class DTNHost implements Comparable<DTNHost> {
 		this.comBus = comBus;
 		this.location = new Coord(0,0);
 		this.address = getNextAddress();
+		this.id = groupId;  // 13/7/16 (D.Shtefan) Save group Id
 		this.name = groupId+address;
 		this.net = new ArrayList<NetworkInterface>();
 
@@ -538,4 +542,8 @@ public class DTNHost implements Comparable<DTNHost> {
 		return this.getAddress() - h.getAddress();
 	}
 
+	// 13/7/16 (D.Shtefan) Added method to return host's group prefix
+	public String getGroupId(){
+		return id;
+	}
 }

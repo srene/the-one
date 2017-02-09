@@ -1,0 +1,20 @@
+Message stats for scenario Density_105-hosts_3
+sim_time: 43210.1000
+created: 665
+started: 663
+relayed: 645
+aborted: 18
+dropped: 657
+removed: 0
+delivered: 645
+delivery_prob: 0.9699
+response_prob: 0.0000
+overhead_ratio: 0.0000
+latency_avg: 4.0828
+latency_med: 4.0000
+hopcount_avg: 1.0000
+hopcount_med: 1
+buffertime_avg: 270.2747
+buffertime_med: 270.4000
+rtt_avg: NaN
+rtt_med: NaN
